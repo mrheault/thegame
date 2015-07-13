@@ -15,7 +15,7 @@ What's included?
     collaborators — check if EditorConfig support is available for your code
     editor.
 
-*   [JSHint][jsht] for code quality check.
+*   [ESLint][eslt] for code quality check.
 
 *   [Bower][bowr] for easy component management.
 
@@ -44,15 +44,6 @@ npm run clean # Delete temporary and distribution build files.
 required to do so.</small>
 
 Happy coding!
-
-
-Sample Game
--------------------------------------------------------------------------------
-
-To see a more elaborate sample game in action, extract the `sample-game.zip`
-file, included in this repository, from the project root. The only extra
-dependency is [localForage][lofr], so you'll need to run `bower install` to run
-the game without errors.
 
 
 [`slush-phaser-plus`][ssp+]
@@ -86,8 +77,8 @@ Some code borrowed from [gulp-starter][gsdt], by Daniel Tello.
 [bowr]: http://bower.io/
 [phsr]: http://phaser.io/
 [babl]: https://babeljs.io/
+[eslt]: http://eslint.org/
 [gulp]: http://gulpjs.com/
-[jsht]: http://jshint.com/
 [less]: http://lesscss.org/
 [edcf]: http://editorconfig.org/
 [hbs.]: http://handlebarsjs.com/
