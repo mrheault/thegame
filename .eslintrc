@@ -1,9 +1,8 @@
-parser: babel-eslint
-
 settings:
   ecmascript: 6
 
 env:
+  es6: true
   browser: true
 
 globals:
