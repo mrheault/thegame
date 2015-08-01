@@ -2,6 +2,15 @@ Change Log
 ===============================================================================
 
 
+v0.4.1
+-------------------------------------------------------------------------------
+
+*   Upgraded to install Phaser v2.4.2 (or greater in 2.4.x development line).
+*   Upgraded to ESLint v1.0.0.
+*   Updated the ESLint rules files to fix some rules replaced in v1.0.0.
+*   Upgraded some Gulp plug-ins to their latest versions.
+
+
 v0.4.0
 -------------------------------------------------------------------------------
 
