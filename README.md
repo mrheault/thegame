@@ -69,8 +69,6 @@ This project is based upon earlier efforts by these two brilliant developers:
 - [slush-phaser-node][sspn], by [Matt Gale (@Eruant)][matt], and
 - [slush-phaser-project][sspp], by [Sean Bohan (@pixelpicosean)][ppsn].
 
-Some code borrowed from [gulp-starter][gsdt], by Daniel Tello.
-
 
 <!-- ---------------------------------------------------------------------- -->
 
@@ -87,7 +85,6 @@ Some code borrowed from [gulp-starter][gsdt], by Daniel Tello.
 [feat]: http://babeljs.io/docs/learn-es6/
 [ppsn]: https://github.com/pixelpicosean/
 [lofr]: http://mozilla.github.io/localForage/
-[gsdt]: https://github.com/greypants/gulp-starter/
 [sspn]: https://github.com/Eruant/slush-phaser-node
 [ssp+]: https://github.com/rblopes/slush-phaser-plus
 [sspp]: https://github.com/pixelpicosean/slush-phaser-project
