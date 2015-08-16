@@ -20,8 +20,6 @@ What's included?
 
 *   [ESLint][eslt] for code quality check.
 
-*   [Bower][bowr] for easy component management.
-
 *   [Babel][babl] to translate from ES6 to ES5 syntax.
     See which [language features][feat] are currently supported.
 
@@ -75,7 +73,6 @@ This project is based upon earlier efforts by these two brilliant developers:
 
 <!-- ---------------------------------------------------------------------- -->
 
-[bowr]: http://bower.io/
 [phsr]: http://phaser.io/
 [babl]: https://babeljs.io/
 [eslt]: http://eslint.org/

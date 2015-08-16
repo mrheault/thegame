@@ -6,6 +6,7 @@ v0.5.0
 -------------------------------------------------------------------------------
 
 *   Added Browserify support, with Watchify for live development.
+*   Removed Bower in favor of npm packages.
 
 
 v0.4.1

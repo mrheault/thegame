@@ -35,21 +35,17 @@ module.exports = function (gulp, $, config) {
   });
 
   // Bundle all scripts together for distribution.
-  gulp.task(
-    'dist:scripts',
-    [ 'dev:build:bundle', 'dev:build:scripts' ],
-    function () {
-      return gulp.src([
-        dirs.build + '/bundle.js',
-        dirs.build + '/game.js'
-      ])
-        .pipe($.sourcemaps.init({ loadMaps: true }))
-        .pipe($.concat('game.min.js'))
-        .pipe($.uglify())
-        .pipe($.sourcemaps.write('.'))
-        .pipe(gulp.dest(dirs.dist));
-    }
-  );
+  gulp.task('dist:scripts', [ 'dev:build:scripts' ], function () {
+    return gulp.src([
+      config.phaser,
+      dirs.build + '/game.js'
+    ])
+      .pipe($.sourcemaps.init({ loadMaps: true }))
+      .pipe($.concat('game.min.js'))
+      .pipe($.uglify())
+      .pipe($.sourcemaps.write('.'))
+      .pipe(gulp.dest(dirs.dist));
+  });
 
   // Copy all dependent application assets into the final build directory.
   gulp.task('dist:assets', function () {
