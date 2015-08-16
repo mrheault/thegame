@@ -7,7 +7,7 @@
  *
  * Regarding how the game assets should be declared using this file, refer to
  * the sample `assetPack.json` included in the Phaser package, under
- * `bower_components/phaser/resources/` directory, for a more complete
+ * `node_modules/phaser/resources/` directory, for a more complete
  * reference.
  *
  */
@@ -37,15 +37,12 @@ export default {
       type: 'image',
       url: 'phaser.png'
     }
-  ],
 
-  // - Music and Sound effects ------------------------------------------------
-  audio: [
-    // // Example
+    // A sound effect example
     // {
     //   key: 'pow',
     //   type: 'audio',
-    //   urls: [ 'pow.ogg', 'pow.m4a' ]
+    //   urls: [ 'pow.oga', 'pow.m4a' ]
     // }
   ]
 
