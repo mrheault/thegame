@@ -9,6 +9,9 @@ What's included?
 
 *   [Gulp][gulp] task manager, to handle development and distribution tasks.
 
+*   **New in v0.5** [Browserify][brsy] support for easier components management
+    and dependency tracking.
+
 *   [BrowserSync][bsnc] development server, for cross-device testing.
 
 *   [EditorConfig][edcf] support, for consistent editor configuration between
@@ -78,6 +81,7 @@ This project is based upon earlier efforts by these two brilliant developers:
 [eslt]: http://eslint.org/
 [gulp]: http://gulpjs.com/
 [less]: http://lesscss.org/
+[brsy]: http://browserify.org/
 [edcf]: http://editorconfig.org/
 [hbs.]: http://handlebarsjs.com/
 [matt]: https://github.com/Eruant
