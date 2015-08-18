@@ -9,6 +9,9 @@ What's included?
 
 *   [Gulp][gulp] task manager, to handle development and distribution tasks.
 
+*   **New in v0.5** [Browserify][brsy] support for easier management of
+    components and dependency tracking.
+
 *   [BrowserSync][bsnc] development server, for cross-device testing.
 
 *   [EditorConfig][edcf] support, for consistent editor configuration between
@@ -17,13 +20,11 @@ What's included?
 
 *   [ESLint][eslt] for code quality check.
 
-*   [Bower][bowr] for easy component management.
-
-*   [Babel][babl] to translate from ES6 to ES5 syntax.
-    See which [language features][feat] are currently supported.
+*   [Babel][babl] to compile ECMAScript 2015 style code to compatible, ES 5.1
+    syntax. Check which [language features][feat] are currently supported.
 
 *   [Handlebars][hbs.] templates, [LESS][less] style sheets, support for source
-    maps output, off-line cache and much more!
+    maps output, off-line cache and more!
 
 
 Development Instructions
@@ -72,12 +73,12 @@ This project is based upon earlier efforts by these two brilliant developers:
 
 <!-- ---------------------------------------------------------------------- -->
 
-[bowr]: http://bower.io/
 [phsr]: http://phaser.io/
 [babl]: https://babeljs.io/
 [eslt]: http://eslint.org/
 [gulp]: http://gulpjs.com/
 [less]: http://lesscss.org/
+[brsy]: http://browserify.org/
 [edcf]: http://editorconfig.org/
 [hbs.]: http://handlebarsjs.com/
 [matt]: https://github.com/Eruant

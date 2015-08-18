@@ -1,5 +1,4 @@
 {
-  "modules": "amd",
-  "moduleIds": true,
-  "nonStandard": false
+  "nonStandard": false,
+  "optional": [ "runtime" ]
 }
