@@ -41,8 +41,8 @@ npm run dist  # Prepare the game release for distribution. Also `gulp dist`.
 npm run clean # Delete temporary and distribution build files.
 ```
 
-<small>Also, you may want to install Gulp and Bower globally, but you are not
-required to do so.</small>
+(Optionally, you could install Gulp globally, but you are not required to do
+so.)
 
 Happy coding!
 
