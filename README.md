@@ -9,6 +9,8 @@ What's included?
 
 *   [Gulp][gulp] task manager, to handle development and distribution tasks.
 
+*   **New in v0.6** npm script for [Audio Sprite][ausp] generation.
+
 *   **New in v0.5** [Browserify][brsy] support for easier management of
     components and dependency tracking.
 
@@ -86,6 +88,7 @@ This project is based upon earlier efforts by these two brilliant developers:
 [feat]: http://babeljs.io/docs/learn-es6/
 [ppsn]: https://github.com/pixelpicosean/
 [lofr]: http://mozilla.github.io/localForage/
+[ausp]: https://github.com/tonistiigi/audiosprite
 [sspn]: https://github.com/Eruant/slush-phaser-node
 [ssp+]: https://github.com/rblopes/slush-phaser-plus
 [sspp]: https://github.com/pixelpicosean/slush-phaser-project
