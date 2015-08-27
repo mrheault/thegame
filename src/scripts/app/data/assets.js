@@ -19,14 +19,12 @@ export default {
   boot: [
     {
       key: 'splash-screen',
-      type: 'image',
-      url: 'splash-screen.png'
+      type: 'image'
     },
 
     {
       key: 'progress-bar',
-      type: 'image',
-      url: 'progress-bar.png'
+      type: 'image'
     }
   ],
 
@@ -34,8 +32,7 @@ export default {
   game: [
     {
       key: 'phaser',
-      type: 'image',
-      url: 'phaser.png'
+      type: 'image'
     }
 
     // Example: adding a background music.
