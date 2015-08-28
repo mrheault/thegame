@@ -13,7 +13,7 @@ export default class Boot extends Phaser.State {
 
   init () {
     // Point the Phaser Asset Loader to where all your assets live.
-    this.load.baseURL = './assets/';
+    this.load.path = 'assets/';
 
     // Initialize physics engines here. Phaser builds including Arcade Physics
     // enable it by default.
