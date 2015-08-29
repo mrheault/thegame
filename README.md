@@ -25,8 +25,8 @@ What's included?
 *   [Babel][babl] to compile ECMAScript 2015 style code to compatible, ES 5.1
     syntax. Check which [language features][feat] are currently supported.
 
-*   [Handlebars][hbs.] templates, [LESS][less] style sheets, support for source
-    maps output, off-line cache and more!
+*   [Handlebars][hbs.] templates, [LESS][less] style sheets, source maps and
+    more!
 
 
 Development Instructions
