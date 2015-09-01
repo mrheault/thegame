@@ -57,9 +57,7 @@ generator based on this template. Check [the project page][ssp+] for more
 details, or just install it with npm (`npm install --global slush-phaser-plus`)
 and give it a shot!
 
-<em><small>
-(Meanwhile, development of this template will continue regularly.)
-</small></em>
+<em>(Meanwhile, development of this template will continue regularly.)</em>
 
 
 License
@@ -85,9 +83,8 @@ This project is based upon earlier efforts by these two brilliant developers:
 [hbs.]: http://handlebarsjs.com/
 [matt]: https://github.com/Eruant
 [bsnc]: http://www.browsersync.io/
-[feat]: http://babeljs.io/docs/learn-es6/
 [ppsn]: https://github.com/pixelpicosean/
-[lofr]: http://mozilla.github.io/localForage/
+[feat]: https://babeljs.io/docs/learn-es2015/
 [ausp]: https://github.com/tonistiigi/audiosprite
 [sspn]: https://github.com/Eruant/slush-phaser-node
 [ssp+]: https://github.com/rblopes/slush-phaser-plus
