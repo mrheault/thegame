@@ -15,8 +15,8 @@ module.exports = function (gulp, $, config) {
   var options = config.pluginOptions;
 
   // Wipes `build` and `dist` directories before any task.
-  gulp.task('dist:clean', function (done) {
-    del([ dirs.build, dirs.dist ], done);
+  gulp.task('dist:clean', function () {
+    return del([ dirs.build, dirs.dist ]);
   });
 
   // Process any markup files for distribution.
@@ -53,21 +53,13 @@ module.exports = function (gulp, $, config) {
       .pipe(gulp.dest(dirs.dist));
   });
 
-  // Generate the off-line application cache.
-  gulp.task('dist:appcache', function () {
-    return gulp.src(globs.assets)
-      .pipe($.manifest(options['dist:appcache']))
-      .pipe(gulp.dest(dirs.dist));
-  });
-
   // The main distribution task.
   gulp.task('dist', [ 'dist:clean' ], function (done) {
     gulp.start([
       'dist:views',
       'dist:assets',
       'dist:styles',
-      'dist:scripts',
-      'dist:appcache'
+      'dist:scripts'
     ], done);
   });
 

@@ -1,84 +1,57 @@
 Change Log
-===============================================================================
+==========
 
+##  v0.6.0
+*   Rebranded project as `phaser-plus-template`.
+*   Added Audio Sprite generation support using `audiosprite` package.
+*   Removing application cache support.
+*   Upgraded some task plugins.
 
-v0.5.1
--------------------------------------------------------------------------------
-
+##  v0.5.1
 *   Removed the Babel runtime transformation pass, falling back to the global
     polyfill instead.
 
-
-v0.5.0
--------------------------------------------------------------------------------
-
+##  v0.5.0
 *   Added Browserify support, with Watchify for live development.
 *   Removed Bower in favor of npm packages.
 *   Updated ESLint rule-set file to be less restrictive.
 *   Updated sample game code.
 
-
-v0.4.1
--------------------------------------------------------------------------------
-
+##  v0.4.1
 *   Upgraded to install Phaser v2.4.2 (or greater in 2.4.x development line).
 *   Upgraded to ESLint v1.0.0.
 *   Updated the ESLint rules files to fix some rules replaced in v1.0.0.
 *   Upgraded some Gulp plug-ins to their latest versions.
 
-
-v0.4.0
--------------------------------------------------------------------------------
-
+##  v0.4.0
 *   Removed old, unmaintained sample game ZIP archive.
 *   Replaced JSHint by ESLint.
 
-
-v0.3.3
--------------------------------------------------------------------------------
-
+##  v0.3.3
 *   Upgraded plugin `jshint-stylish` to v2.0.0.
 *   Cleared some deprecated and unused JSHint rules from their respective
     configuration files.
 
-
-v0.3.2
--------------------------------------------------------------------------------
-
+##  v0.3.2
 *   Updated BrowserSync usage.
 *   Minor documentation changes.
 
-
-v0.3.1
--------------------------------------------------------------------------------
-
+##  v0.3.1
 *   Upgraded `gulp-load-plugins`.
 
-
-v0.3.0
--------------------------------------------------------------------------------
-
+##  v0.3.0
 *   Sample game replaced by a simpler application.
 *   Including a ZIP file, containing the old sample game.
 
-
-v0.2.2
--------------------------------------------------------------------------------
-
+##  v0.2.2
 *   Upgraded to Babel v5.0.0.
 *   Upgraded plugin `gulp-postcss` to v5.0.0.
 
-
-v0.2.1
--------------------------------------------------------------------------------
-
+##  v0.2.1
 *   Use `gulp-hb` to compile templates.
 *   Move template data to project source.
 
-
-v0.2.0
--------------------------------------------------------------------------------
-
+##  v0.2.0
 *   Upgraded Phaser to version 2.3.0.
 *   Phaser is now the first dependency declared in the `bower.json` manifest,
     avoiding some issues with Almond and Phaser's P2 physics engine build
@@ -91,10 +64,7 @@ v0.2.0
 *   Spread the project configuration into CommonJS modules.
 *   Updated Favicons and related stuff.
 
-
-v0.1.9
--------------------------------------------------------------------------------
-
+##  v0.1.9
 *   Upgrading gulp plugins: `gulp-load-plugins`, `require-dir`
 *   Return `Promise`s from storage plugin
 *   Expose game states through a module, add them dynamically
@@ -102,22 +72,13 @@ v0.1.9
 *   Simplify game launching code
 *   Renaming web application manifest file
 
-
-v0.1.8
--------------------------------------------------------------------------------
-
+##  v0.1.8
 *   Upgrade some gulp plugin versions
 
-
-v0.1.7
--------------------------------------------------------------------------------
-
+##  v0.1.7
 *   Upgrade task plug-in `gulp-processhtml`
 
-
-v0.1.6
--------------------------------------------------------------------------------
-
+##  v0.1.6
 *   Make incremental builds actually work
 *   Remove obsolete Babel `format` option from project configuration
 *   Update mentions to Babel in project metadata and README, some other minor 
@@ -125,49 +86,30 @@ v0.1.6
 *   Use `gulp-filter` instead of `gulp-if` when filtering bundled scripts
 *   Upgrade `gulp-minify-css`
 
-
-v0.1.5
--------------------------------------------------------------------------------
-
+##  v0.1.5
 *   Upgrade plug-in `gulp-less`
 *   Replacing 6to5 by Babel, due to the project name change.
 
-
-v0.1.4
--------------------------------------------------------------------------------
-
+##  v0.1.4
 *   Upgrade to BrowserSync 2.0
 
-
-v0.1.3
--------------------------------------------------------------------------------
-
+##  v0.1.3
 *   Solve issue #1, where 6to5 may compile code with syntax errors formatted 
     with the `compact` option (thanks @dfyx)
 
-
-v0.1.2
--------------------------------------------------------------------------------
-
+##  v0.1.2
 *   Reverted game states to class instances
 *   Upgraded some development dependencies, 6to5
 
-
-v0.1.1
--------------------------------------------------------------------------------
-
+##  v0.1.1
 *   Force UTF-8 encoding by default in new files
 *   Comments as hints in task files
 *   Avoid including non-JS files in `bundle.js`
 *   Crediting @Eruant in the README
 *   Dependency upgrades
 
-
-v0.1.0
--------------------------------------------------------------------------------
-
+##  v0.1.0
 First public release, including:
-
 *   6to5
 *   Almond runtime dependency tracker
 *   Bower component manager

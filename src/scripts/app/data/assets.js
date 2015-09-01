@@ -19,14 +19,12 @@ export default {
   boot: [
     {
       key: 'splash-screen',
-      type: 'image',
-      url: 'splash-screen.png'
+      type: 'image'
     },
 
     {
       key: 'progress-bar',
-      type: 'image',
-      url: 'progress-bar.png'
+      type: 'image'
     }
   ],
 
@@ -34,15 +32,22 @@ export default {
   game: [
     {
       key: 'phaser',
-      type: 'image',
-      url: 'phaser.png'
+      type: 'image'
     }
 
-    // A sound effect example
+    // Example: adding a background music.
     // {
-    //   key: 'pow',
+    //   key: 'tune',
     //   type: 'audio',
-    //   urls: [ 'pow.oga', 'pow.m4a' ]
+    //   urls: [ 'tune.oga', 'tune.m4a' ]
+    // }
+
+    // Example: adding a audio sprite containing sound effects.
+    // {
+    //   key: 'sfx',
+    //   type: 'audiosprite',
+    //   urls: [ 'sfx.m4a' ],
+    //   jsonURL: 'sfx.json'
     // }
   ]
 

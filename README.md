@@ -1,16 +1,18 @@
-My Phaser Template
-===============================================================================
+Phaser Plus Template
+====================
 
 >   A project template for [Phaser][phsr] web games.
 
 
 What's included?
--------------------------------------------------------------------------------
+----------------
 
 *   [Gulp][gulp] task manager, to handle development and distribution tasks.
 
-*   **New in v0.5** [Browserify][brsy] support for easier management of
-    components and dependency tracking.
+*   **New in v0.6** npm script for [Audio Sprite][ausp] generation.
+
+*   [Browserify][brsy] support for easier management of components and
+    dependency tracking.
 
 *   [BrowserSync][bsnc] development server, for cross-device testing.
 
@@ -23,12 +25,12 @@ What's included?
 *   [Babel][babl] to compile ECMAScript 2015 style code to compatible, ES 5.1
     syntax. Check which [language features][feat] are currently supported.
 
-*   [Handlebars][hbs.] templates, [LESS][less] style sheets, support for source
-    maps output, off-line cache and more!
+*   [Handlebars][hbs.] templates, [LESS][less] style sheets, source maps and
+    more!
 
 
 Development Instructions
--------------------------------------------------------------------------------
+------------------------
 
 Download and extract the [packaged project][dwld] contents, or clone this
 repository locally. Either way, the following npm scripts are available to you,
@@ -48,7 +50,7 @@ Happy coding!
 
 
 [`slush-phaser-plus`][ssp+]
--------------------------------------------------------------------------------
+---------------------------
 
 Wanna try something different? `slush-phaser-plus` is an automated project
 generator based on this template. Check [the project page][ssp+] for more
@@ -61,9 +63,9 @@ and give it a shot!
 
 
 License
--------------------------------------------------------------------------------
+-------
 
-All source code distributed under the terms of the [MIT License][lcnc].
+All source code distributed under the terms of the [MIT License](LICENSE).
 
 This project is based upon earlier efforts by these two brilliant developers:
 
@@ -86,8 +88,8 @@ This project is based upon earlier efforts by these two brilliant developers:
 [feat]: http://babeljs.io/docs/learn-es6/
 [ppsn]: https://github.com/pixelpicosean/
 [lofr]: http://mozilla.github.io/localForage/
+[ausp]: https://github.com/tonistiigi/audiosprite
 [sspn]: https://github.com/Eruant/slush-phaser-node
 [ssp+]: https://github.com/rblopes/slush-phaser-plus
 [sspp]: https://github.com/pixelpicosean/slush-phaser-project
-[dwld]: https://github.com/rblopes/my-phaser-template/archive/master.zip
-[lcnc]: https://github.com/rblopes/my-phaser-template/blob/master/LICENSE
+[dwld]: https://github.com/rblopes/phaser-plus-template/archive/master.zip
