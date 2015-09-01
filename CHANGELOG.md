@@ -5,6 +5,7 @@ Change Log
 *   Rebranded project as `phaser-plus-template`.
 *   Added Audio Sprite generation support using `audiosprite` package.
 *   Removing application cache support.
+*   Upgraded some task plugins.
 
 ##  v0.5.1
 *   Removed the Babel runtime transformation pass, falling back to the global
