@@ -1,6 +1,10 @@
 Change Log
 ==========
 
+##  v0.6.1
+*   Replaced deprecated task plugin `autoprefixer-core` with latest version of
+    `autoprefixer`.
+
 ##  v0.6.0
 *   Rebranded project as `phaser-plus-template`.
 *   Added Audio Sprite generation support using `audiosprite` package.
