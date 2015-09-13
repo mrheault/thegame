@@ -18,15 +18,8 @@ module.exports = function (gulp, $, config) {
     return del([ dirs.build, dirs.dist ]);
   });
 
-  // Process any markup files for distribution.
-  gulp.task('dist:views', [ 'dev:build:views' ], function () {
-    return gulp.src(dirs.build + '/*.html')
-      .pipe($.processhtml())
-      .pipe(gulp.dest(dirs.dist));
-  });
-
   // Bundle all scripts together for distribution.
-  gulp.task('dist:scripts', [ 'dev:build:scripts' ], function () {
+  gulp.task('dist:scripts', [ 'dev:scripts' ], function () {
     return gulp.src([
       config.phaser,
       dirs.build + '/game.js'
@@ -40,14 +33,18 @@ module.exports = function (gulp, $, config) {
 
   // Copy all dependent application assets into the final build directory.
   gulp.task('dist:assets', function () {
+    var filterHTML = $.filter('*.html', { restore: true });
+
     return gulp.src(globs.assets)
+      .pipe(filterHTML)
+      .pipe($.processhtml())
+      .pipe(filterHTML.restore)
       .pipe(gulp.dest(dirs.dist));
   });
 
   // The main distribution task.
   gulp.task('dist', [ 'dist:clean' ], function (done) {
     gulp.start([
-      'dist:views',
       'dist:assets',
       'dist:scripts'
     ], done);

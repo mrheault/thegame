@@ -3,6 +3,7 @@ Change Log
 
 ##  v0.7.0
 *   Removed LESS support.
+*   Removed Handlebars support.
 
 ##  v0.6.2
 *   Added `estraverse` as a development dependency to avoid an issue introduced
