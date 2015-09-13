@@ -25,8 +25,7 @@ What's included?
 *   [Babel][babl] to compile ECMAScript 2015 style code to compatible, ES 5.1
     syntax. Check which [language features][feat] are currently supported.
 
-*   [Handlebars][hbs.] templates, [LESS][less] style sheets, source maps and
-    more!
+*   [Handlebars][hbs.] templates, source maps and more!
 
 
 Development Instructions
@@ -77,7 +76,6 @@ This project is based upon earlier efforts by these two brilliant developers:
 [babl]: https://babeljs.io/
 [eslt]: http://eslint.org/
 [gulp]: http://gulpjs.com/
-[less]: http://lesscss.org/
 [brsy]: http://browserify.org/
 [edcf]: http://editorconfig.org/
 [hbs.]: http://handlebarsjs.com/

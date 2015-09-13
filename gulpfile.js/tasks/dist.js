@@ -10,9 +10,8 @@ module.exports = function (gulp, $, config) {
 
   var del = require('del');
 
-  var dirs    = config.dirs;
-  var globs   = config.globs;
-  var options = config.pluginOptions;
+  var dirs  = config.dirs;
+  var globs = config.globs;
 
   // Wipes `build` and `dist` directories before any task.
   gulp.task('dist:clean', function () {
@@ -23,14 +22,6 @@ module.exports = function (gulp, $, config) {
   gulp.task('dist:views', [ 'dev:build:views' ], function () {
     return gulp.src(dirs.build + '/*.html')
       .pipe($.processhtml())
-      .pipe(gulp.dest(dirs.dist));
-  });
-
-  // Copy and minify all style sheet files.
-  gulp.task('dist:styles', [ 'dev:build:styles' ], function () {
-    return gulp.src(dirs.build + '/*.css')
-      .pipe($.minifyCss(options['dist:styles']))
-      .pipe($.rename({ extname: '.min.css' }))
       .pipe(gulp.dest(dirs.dist));
   });
 
@@ -58,7 +49,6 @@ module.exports = function (gulp, $, config) {
     gulp.start([
       'dist:views',
       'dist:assets',
-      'dist:styles',
       'dist:scripts'
     ], done);
   });
