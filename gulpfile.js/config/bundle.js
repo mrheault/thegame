@@ -10,6 +10,7 @@ module.exports = {
 
   debug: true,
   standalone: 'app',
-  entries: [ 'src/index' ]
+  entries: [ 'src/index' ],
+  transform: [ 'babelify' ]
 
 };

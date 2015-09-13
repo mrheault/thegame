@@ -5,6 +5,7 @@ Change Log
 *   Removed LESS support.
 *   Removed Handlebars support.
 *   Changed game source code directory.
+*   Removed some public fields from `package.json` metadata.
 
 ##  v0.6.2
 *   Added `estraverse` as a development dependency to avoid an issue introduced
