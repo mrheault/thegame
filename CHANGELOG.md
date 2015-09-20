@@ -1,6 +1,10 @@
 Change Log
 ==========
 
+##  v0.6.2
+*   Added `estraverse` as a development dependency to avoid an issue introduced
+    by `npm@3` that conflicts the Browserify and ESLint package dependencies.
+
 ##  v0.6.1
 *   Replaced deprecated task plugin `autoprefixer-core` with latest version of
     `autoprefixer`.
