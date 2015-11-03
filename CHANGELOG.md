@@ -8,6 +8,7 @@ Change Log
 *   Removed some public fields from `package.json` metadata.
 *   Upgraded to `gulp-load-plugins@^1.0.0`.
 *   Removed `estraverse` dependency.
+*   Upgraded to `browserify@12.0.0`.
 
 ##  v0.6.2
 *   Added `estraverse` as a development dependency to avoid an issue introduced
