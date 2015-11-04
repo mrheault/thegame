@@ -29,8 +29,6 @@ module.exports = function (gulp, $, config) {
       .on('error', handleErrors)
       .pipe(source('game.js'))
       .pipe(buffer())
-      .pipe($.sourcemaps.init({ loadMaps: true }))
-      .pipe($.sourcemaps.write('.'))
       .pipe(gulp.dest(dirs.build))
       .pipe(browserSync.stream());
   });
