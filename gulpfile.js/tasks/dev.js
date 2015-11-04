@@ -18,7 +18,7 @@ module.exports = function (gulp, $, config) {
   var handleErrors = $.notify.onError('<%= error.message %>');
 
   var dirs  = config.dirs;
-  var globs = config.globs;
+  var files = config.files;
 
   var bundler = require('./helpers/bundler');
 
@@ -35,31 +35,19 @@ module.exports = function (gulp, $, config) {
 
   // Starts the live web development server for testing.
   gulp.task('dev:server', [ 'dev:scripts' ], function () {
-    browserSync.init({
-      server: {
-        baseDir: [
-          dirs.static,
-          dirs.build
-        ],
-        routes: {
-          '/phaser.js': config.phaser
-        }
-      },
-      ghostMode: false,
-      notify: false
-    });
+    browserSync.init(config.server);
   });
 
   // Monitors files for changes, trigger rebuilds as needed.
   gulp.task('dev:watch', function () {
     isWatching = true;
 
-    gulp.watch(globs.scripts, [ 'dev:scripts' ]);
+    gulp.watch(files.scripts, [ 'dev:scripts' ]);
   });
 
   // Check script files and issue warnings about non-conformances.
   gulp.task('dev:lint', function () {
-    return gulp.src([ globs.scripts ])
+    return gulp.src([ files.scripts ])
       .pipe($.cached('dev:lint'))
       .pipe($.eslint())
       .pipe($.eslint.format('stylish', process.stderr));

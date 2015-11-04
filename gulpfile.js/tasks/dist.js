@@ -11,7 +11,7 @@ module.exports = function (gulp, $, config) {
   var del = require('del');
 
   var dirs  = config.dirs;
-  var globs = config.globs;
+  var files = config.files;
 
   // Wipes `build` and `dist` directories before any task.
   gulp.task('dist:clean', function () {
@@ -21,7 +21,7 @@ module.exports = function (gulp, $, config) {
   // Bundle all scripts together for distribution.
   gulp.task('dist:scripts', [ 'dev:scripts' ], function () {
     return gulp.src([
-      config.phaser,
+      files.phaser,
       dirs.build + '/game.js'
     ])
       .pipe($.sourcemaps.init({ loadMaps: true }))
@@ -34,7 +34,7 @@ module.exports = function (gulp, $, config) {
   // Copy all required application assets into the final build directory.
   gulp.task('dist:assets', function () {
     var filterHTML = $.filter('*.html', { restore: true });
-    return gulp.src(globs.assets)
+    return gulp.src(files.assets)
       .pipe(filterHTML)
       .pipe($.processhtml())
       .pipe(filterHTML.restore)

@@ -10,6 +10,7 @@ Change Log
 *   Removed `estraverse` dependency.
 *   Upgraded to `browserify@12.0.0`.
 *   Upgraded to Babel 6.
+*   Merged configuration modules under a single file.
 
 ##  v0.6.2
 *   Added `estraverse` as a development dependency to avoid an issue introduced
