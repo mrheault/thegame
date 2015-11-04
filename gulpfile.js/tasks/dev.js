@@ -33,13 +33,6 @@ module.exports = function (gulp, $, config) {
       .pipe(browserSync.stream());
   });
 
-  // Copy a chosen Phaser build for development.
-  gulp.task('dev:copy-phaser', function () {
-    return gulp.src(config.phaser)
-      .pipe($.rename('phaser.js'))
-      .pipe(gulp.dest(dirs.build));
-  });
-
   // Starts the live web development server for testing.
   gulp.task('dev:server', [ 'dev:scripts' ], function () {
     browserSync.init({
@@ -47,7 +40,10 @@ module.exports = function (gulp, $, config) {
         baseDir: [
           dirs.static,
           dirs.build
-        ]
+        ],
+        routes: {
+          '/phaser.js': config.phaser
+        }
       },
       ghostMode: false,
       notify: false
@@ -71,7 +67,6 @@ module.exports = function (gulp, $, config) {
 
   // The main development task.
   gulp.task('dev', [
-    'dev:copy-phaser',
     'dev:server',
     'dev:watch'
   ]);
