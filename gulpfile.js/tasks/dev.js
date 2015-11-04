@@ -1,6 +1,6 @@
 /*
- * Development tasks.
- * ============================================================================
+ * Development tasks
+ * =================
  */
 
 'use strict';
@@ -42,7 +42,7 @@ module.exports = function (gulp, $, config) {
       .pipe(gulp.dest(dirs.build));
   });
 
-  // Instantiate a live web development server for cross-device testing.
+  // Starts the live web development server for testing.
   gulp.task('dev:server', [ 'dev:scripts' ], function () {
     browserSync.init({
       server: {
@@ -63,8 +63,7 @@ module.exports = function (gulp, $, config) {
     gulp.watch(globs.scripts, [ 'dev:scripts' ]);
   });
 
-  // Pass through modified script files and issue warnings about
-  // non-conformances.
+  // Check script files and issue warnings about non-conformances.
   gulp.task('dev:lint', function () {
     return gulp.src([ globs.scripts ])
       .pipe($.cached('dev:lint'))

@@ -1,6 +1,6 @@
 /*
- * Distribution tasks.
- * ============================================================================
+ * Distribution tasks
+ * ==================
  */
 
 'use strict';
@@ -31,10 +31,9 @@ module.exports = function (gulp, $, config) {
       .pipe(gulp.dest(dirs.dist));
   });
 
-  // Copy all dependent application assets into the final build directory.
+  // Copy all required application assets into the final build directory.
   gulp.task('dist:assets', function () {
     var filterHTML = $.filter('*.html', { restore: true });
-
     return gulp.src(globs.assets)
       .pipe(filterHTML)
       .pipe($.processhtml())
