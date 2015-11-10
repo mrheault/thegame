@@ -1,6 +1,17 @@
 Change Log
 ==========
 
+##  v0.7.0
+*   Removed LESS support.
+*   Removed Handlebars support.
+*   Changed game source code directory.
+*   Removed some public fields from `package.json` metadata.
+*   Upgraded to `gulp-load-plugins@^1.0.0`.
+*   Removed `estraverse` dependency.
+*   Upgraded to `browserify@12.0.0`.
+*   Upgraded to Babel 6.
+*   Merged configuration modules under a single file.
+
 ##  v0.6.2
 *   Added `estraverse` as a development dependency to avoid an issue introduced
     by `npm@3` that conflicts the Browserify and ESLint package dependencies.
