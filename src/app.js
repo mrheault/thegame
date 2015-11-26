@@ -2,10 +2,13 @@
  * The `app` module
  * ============================================================================
  *
- * The module providing the main routine of the game application launch.
+ * This module provides the game initialization routine.
  */
 
-// Import all declared states as an object.
+// Required: import the Babel runtime module.
+import 'babel-polyfill';
+
+// Import game states.
 import * as states from './app/states';
 
 
