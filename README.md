@@ -1,5 +1,5 @@
-Phaser Plus Template
-====================
+![Phaser Plus Template](logo.png)
+=================================
 
 >   A complete project template for developing [Phaser][phsr] web games
 >   including Browserify, BrowserSync and more.
@@ -11,20 +11,19 @@ Batteries Included
 *   [Gulp][gulp] task manager, to handle development and distribution tasks,
     with alternative npm scripts provided.
 
-*   [BrowserSync][bsnc] development server for cross-device testing.
+*   [BrowserSync][bsnc] for cross-device testing.
 
-*   [Browserify][brsy] support for easier management of components and
-    dependency tracking.
+*   [Browserify][brsy] for easier management of components and dependencies.
 
-*   [Babel][babl] to compile scripts written in ECMAScript 2015 (and future
-    specs) into scripts compatible with today's browsers. Check which [language
+*   [Babel][babl] to compile ECMAScript 2015 scripts (or future specs) into
+    scripts compatible with today's browsers. Check which [language
     features][feat] are currently supported.
 
-*   [EditorConfig][edcf] support, for consistent editor configuration between
-    collaborators — check if EditorConfig support is available for your code
-    editor.
-
 *   [ESLint][eslt] for code quality check.
+
+*   [EditorConfig][edcf] support, for consistent editor configuration between
+    collaborators — check if [EditorConfig support][ecpl] is available for your
+    code editor.
 
 *   Customizable scripts for automated [Audio Sprites][ausp] generation
     (Requires [FFMpeg][ffmp]).
@@ -59,7 +58,7 @@ This project draws upon earlier efforts of these two brilliant developers:
 - [slush-phaser-project][sspp], by [Sean Bohan (@pixelpicosean)][ppsn].
 
 
-<!-- ---------------------------------------------------------------------- -->
+<!-- Links -->
 
 [phsr]: http://phaser.io/
 [babl]: https://babeljs.io/
