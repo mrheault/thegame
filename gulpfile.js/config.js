@@ -47,7 +47,7 @@ module.exports = {
     debug: true,
     standalone: 'app',
     entries: [
-      'src/index.js'
+      'src/app.js'
     ],
     transform: [
       'babelify'

@@ -1,6 +1,9 @@
 Change Log
 ==========
 
+##  v0.7.1
+*   Added `babel-plugin-transform-runtime`.
+
 ##  v0.7.0
 *   Removed LESS support.
 *   Removed Handlebars support.
