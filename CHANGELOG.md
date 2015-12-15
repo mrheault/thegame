@@ -1,6 +1,10 @@
 Change Log
 ==========
 
+##  v0.7.2
+*   Added missing `babel-runtime` dependency.
+*   Raised the minimum version of all Babel dependencies.
+
 ##  v0.7.1
 *   Added `babel-plugin-transform-runtime`.
 
