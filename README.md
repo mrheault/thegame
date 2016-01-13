@@ -47,6 +47,14 @@ npm run clean # or `gulp dist:clean`: Deletes build files.
 so.)
 
 
+[`generator-phaser-plus`][gpp_]
+-------------------------------
+
+Like `phaser-plus-template`? You may also like its companion
+[`generator-phaser-plus`][gpp_], a new [Yeoman][yomn] generator I'm working on.
+Check it out!
+
+
 License
 -------
 
@@ -61,9 +69,10 @@ This project draws upon earlier efforts of these two brilliant developers:
 <!-- Links -->
 
 [phsr]: http://phaser.io/
-[babl]: https://babeljs.io/
+[yomn]: http://yeoman.io/
 [eslt]: http://eslint.org/
 [gulp]: http://gulpjs.com/
+[babl]: https://babeljs.io/
 [brsy]: http://browserify.org/
 [ffmp]: https://www.ffmpeg.org/
 [edcf]: http://editorconfig.org/
@@ -73,5 +82,6 @@ This project draws upon earlier efforts of these two brilliant developers:
 [feat]: https://babeljs.io/docs/learn-es2015/
 [ausp]: https://github.com/tonistiigi/audiosprite
 [sspn]: https://github.com/Eruant/slush-phaser-node
+[gpp_]: https://github.com/rblopes/generator-phaser-plus
 [sspp]: https://github.com/pixelpicosean/slush-phaser-project
 [dwld]: https://github.com/rblopes/phaser-plus-template/archive/master.zip
