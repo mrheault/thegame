@@ -1,6 +1,9 @@
 Change Log
 ==========
 
+##  v0.7.3
+*   Upgraded to `browserify@^13.0.0`.
+
 ##  v0.7.2
 *   Added missing `babel-runtime` dependency.
 *   Raised the minimum version of all Babel dependencies.
