@@ -10,4 +10,5 @@ bower_components
 !.git*
 !.babelrc
 !.eslintrc
+!.yo-rc.json
 !.editorconfig
