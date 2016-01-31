@@ -4,6 +4,8 @@
 >   A complete project template for developing [Phaser][phsr] web games
 >   including Browserify, BrowserSync and more.
 
+[![Dependency Status][bdg1] ![devDependency Status][bdg2]][deps]
+
 
 Batteries Included
 ------------------
@@ -83,5 +85,8 @@ This project draws upon earlier efforts of these two brilliant developers:
 [ausp]: https://github.com/tonistiigi/audiosprite
 [sspn]: https://github.com/Eruant/slush-phaser-node
 [gpp_]: https://github.com/rblopes/generator-phaser-plus
+[deps]: https://david-dm.org/rblopes/phaser-plus-template
+[bdg1]: https://david-dm.org/rblopes/phaser-plus-template.svg
 [sspp]: https://github.com/pixelpicosean/slush-phaser-project
+[bdg2]: https://david-dm.org/rblopes/phaser-plus-template/dev-status.svg
 [dwld]: https://github.com/rblopes/phaser-plus-template/archive/master.zip
