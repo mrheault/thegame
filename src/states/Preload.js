@@ -8,7 +8,7 @@
  * during the asset load.
  */
 
-import assets from '../data/assets';
+import assets from '../assets';
 
 // To make matters easier, I prepared a SplashScreen class, responsible for
 // displaying the decorated splash screen graphic, and the progress bar.

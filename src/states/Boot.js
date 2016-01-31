@@ -6,7 +6,7 @@
  * features.
  */
 
-import assets from '../data/assets';
+import assets from '../assets';
 
 
 export default class Boot extends Phaser.State {

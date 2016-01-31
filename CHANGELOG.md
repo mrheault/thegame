@@ -4,6 +4,7 @@ Change Log
 ##  v0.8.0
 *   Simplified code bundling logic.
 *   Split Phaser from distributed game code.
+*   Changed app directory structure.
 
 ##  v0.7.3
 *   Upgraded to `browserify@^13.0.0`.

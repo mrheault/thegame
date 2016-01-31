@@ -1,9 +1,9 @@
 {
   "generator-phaser-plus": {
     "dirs": {
-      "objects": "src/app/objects",
-      "plugins": "src/app/plugins",
-      "states": "src/app/states"
+      "objects": "src/objects",
+      "plugins": "src/plugins",
+      "states": "src/states"
     }
   }
 }
