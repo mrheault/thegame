@@ -5,6 +5,7 @@ Change Log
 *   Simplified code bundling logic.
 *   Split Phaser from distributed game code.
 *   Changed app directory structure.
+*   Dropped Audio Sprite generation support.
 
 ##  v0.7.3
 *   Upgraded to `browserify@^13.0.0`.

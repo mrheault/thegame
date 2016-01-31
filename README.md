@@ -27,9 +27,6 @@ Batteries Included
     collaborators — check if [EditorConfig support][ecpl] is available for your
     code editor.
 
-*   Customizable scripts for automated [Audio Sprites][ausp] generation
-    (Requires [FFMpeg][ffmp]).
-
 
 Development Instructions
 ------------------------
@@ -76,13 +73,11 @@ This project draws upon earlier efforts of these two brilliant developers:
 [gulp]: http://gulpjs.com/
 [babl]: https://babeljs.io/
 [brsy]: http://browserify.org/
-[ffmp]: https://www.ffmpeg.org/
 [edcf]: http://editorconfig.org/
 [matt]: https://github.com/Eruant
 [bsnc]: http://www.browsersync.io/
 [ppsn]: https://github.com/pixelpicosean/
 [feat]: https://babeljs.io/docs/learn-es2015/
-[ausp]: https://github.com/tonistiigi/audiosprite
 [sspn]: https://github.com/Eruant/slush-phaser-node
 [gpp_]: https://github.com/rblopes/generator-phaser-plus
 [deps]: https://david-dm.org/rblopes/phaser-plus-template
