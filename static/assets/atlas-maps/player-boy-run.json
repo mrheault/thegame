@@ -1,7 +1,7 @@
 {"frames": [
 
 {
-	"filename": "run1.png",
+	"filename": "run1",
 	"frame": {"x":1,"y":1,"w":145,"h":197},
 	"rotated": false,
 	"trimmed": true,
@@ -9,7 +9,7 @@
 	"sourceSize": {"w":146,"h":197}
 },
 {
-	"filename": "run10.png",
+	"filename": "run10",
 	"frame": {"x":290,"y":1,"w":120,"h":196},
 	"rotated": false,
 	"trimmed": true,
@@ -17,7 +17,7 @@
 	"sourceSize": {"w":146,"h":197}
 },
 {
-	"filename": "run11.png",
+	"filename": "run11",
 	"frame": {"x":647,"y":1,"w":110,"h":196},
 	"rotated": false,
 	"trimmed": true,
@@ -25,7 +25,7 @@
 	"sourceSize": {"w":146,"h":197}
 },
 {
-	"filename": "run12.png",
+	"filename": "run12",
 	"frame": {"x":1,"y":200,"w":145,"h":197},
 	"rotated": false,
 	"trimmed": true,
@@ -33,7 +33,7 @@
 	"sourceSize": {"w":146,"h":197}
 },
 {
-	"filename": "run2.png",
+	"filename": "run2",
 	"frame": {"x":412,"y":1,"w":118,"h":196},
 	"rotated": false,
 	"trimmed": true,
@@ -41,7 +41,7 @@
 	"sourceSize": {"w":146,"h":197}
 },
 {
-	"filename": "run3.png",
+	"filename": "run3",
 	"frame": {"x":532,"y":1,"w":113,"h":196},
 	"rotated": false,
 	"trimmed": true,
@@ -49,7 +49,7 @@
 	"sourceSize": {"w":146,"h":197}
 },
 {
-	"filename": "run4.png",
+	"filename": "run4",
 	"frame": {"x":148,"y":1,"w":140,"h":197},
 	"rotated": false,
 	"trimmed": true,
@@ -57,7 +57,7 @@
 	"sourceSize": {"w":146,"h":197}
 },
 {
-	"filename": "run5.png",
+	"filename": "run5",
 	"frame": {"x":290,"y":199,"w":120,"h":196},
 	"rotated": false,
 	"trimmed": true,
@@ -65,7 +65,7 @@
 	"sourceSize": {"w":146,"h":197}
 },
 {
-	"filename": "run6.png",
+	"filename": "run6",
 	"frame": {"x":647,"y":199,"w":110,"h":196},
 	"rotated": false,
 	"trimmed": true,
@@ -73,7 +73,7 @@
 	"sourceSize": {"w":146,"h":197}
 },
 {
-	"filename": "run7.png",
+	"filename": "run7",
 	"frame": {"x":412,"y":199,"w":118,"h":196},
 	"rotated": false,
 	"trimmed": true,
@@ -81,7 +81,7 @@
 	"sourceSize": {"w":146,"h":197}
 },
 {
-	"filename": "run8.png",
+	"filename": "run8",
 	"frame": {"x":532,"y":199,"w":113,"h":196},
 	"rotated": false,
 	"trimmed": true,
@@ -89,7 +89,7 @@
 	"sourceSize": {"w":146,"h":197}
 },
 {
-	"filename": "run9.png",
+	"filename": "run9",
 	"frame": {"x":148,"y":200,"w":140,"h":197},
 	"rotated": false,
 	"trimmed": true,
@@ -103,6 +103,6 @@
 	"format": "RGBA8888",
 	"size": {"w":758,"h":398},
 	"scale": "0.25",
-	"smartupdate": "$TexturePacker:SmartUpdate:4df5ba7e9ca2d9f872e7db5da26594b2:c8e80d04e9de00d6516729a4f470a8ac:e2f344dbf85e113ef0dbf012073dabba$"
+	"smartupdate": "$TexturePacker:SmartUpdate:16546918ccd7465c6f7f11c2233785d5:c8e80d04e9de00d6516729a4f470a8ac:e2f344dbf85e113ef0dbf012073dabba$"
 }
 }

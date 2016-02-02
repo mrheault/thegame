@@ -35,7 +35,7 @@ export default class Game extends Phaser.State {
 
     this.ledge = this.platforms.create(400, 50, 'ground');
     this.ledge.body.immovable = true;
-    
+
     this.player = new Player(this.game);
 
     this.cursors = this.input.keyboard.createCursorKeys();
@@ -43,31 +43,32 @@ export default class Game extends Phaser.State {
 
   update() {
     this.physics.arcade.collide(this.player, this.platforms);
-    
+
     this.player.body.velocity.x = 0;
 
     if (this.cursors.left.isDown) {
       //  Move to the left
       this.player.body.velocity.x = -150;
-
-      this.player.animations.play('left');
+      this.player.scale.x =  -1;
+      this.player.animations.play('run');
     }
     else if (this.cursors.right.isDown) {
       //  Move to the right
       this.player.body.velocity.x = 150;
-
-      this.player.animations.play('right');
+      this.player.scale.x =  1;
+      this.player.animations.play('run');
     }
-//     else {
-//       //  Stand still
-//       this.player.animations.stop();
-// 
-//       this.player.frame = 4;
-//     }
-      
+    else {
+      //  Stand still
+      //this.player.animations.stop();
+
+      this.player.animations.play('idle');
+    }
+
     //  Allow the player to jump if they are touching the ground.
     if (this.cursors.up.isDown && this.player.body.touching.down) {
       this.player.body.velocity.y = -350;
+      
     }
   }
 

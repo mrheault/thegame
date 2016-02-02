@@ -34,7 +34,7 @@ export default {
     {
       //   Loads a JSON Array format Texture Atlas.
       type: 'atlasJSONArray',
-      key: 'player-boy-run',
+      key: 'player',
       textureURL: 'atlas-maps/player-boy.png',
       atlasURL: 'atlas-maps/player-boy.json',
       atlasData: null
