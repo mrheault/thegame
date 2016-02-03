@@ -1,6 +1,9 @@
 Change Log
 ==========
 
+##  v0.9.0
+*   Bumped all dependencies to their latest versions.
+
 ##  v0.8.0
 *   Simplified code bundling logic.
 *   Split Phaser from distributed game code.
