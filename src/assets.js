@@ -27,6 +27,10 @@ export default {
       type: 'image'
     },
     {
+      key: 'dude',
+      type: 'spritesheet'
+    },
+    {
       key: 'ground',
       type: 'image',
       url: 'platform.png'
