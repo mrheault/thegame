@@ -6,12 +6,12 @@
         <key>texturePackerVersion</key>
         <string>4.0.1</string>
         <key>fileName</key>
-        <string>C:/Users/mrheault/Desktop/player-cat.tps</string>
+        <string>D:/source/thegame/static/assets/atlas-maps/player-cat.tps</string>
         <key>autoSDSettings</key>
         <array>
             <struct type="AutoSDSettings">
                 <key>scale</key>
-                <double>1</double>
+                <double>0.25</double>
                 <key>extension</key>
                 <string></string>
                 <key>spriteFilter</key>
@@ -38,7 +38,7 @@
         <key>dataFormat</key>
         <string>phaser-json-array</string>
         <key>textureFileName</key>
-        <filename>D:/source/thegame/static/assets/atlas-maps/player-cat.png</filename>
+        <filename>player-cat.png</filename>
         <key>flipPVR</key>
         <false/>
         <key>pvrCompressionQuality</key>
@@ -88,9 +88,9 @@
         <key>maxTextureSize</key>
         <QSize>
             <key>width</key>
-            <int>8192</int>
+            <int>1024</int>
             <key>height</key>
-            <int>8192</int>
+            <int>1024</int>
         </QSize>
         <key>fixedTextureSize</key>
         <QSize>
@@ -147,7 +147,7 @@
             <key>data</key>
             <struct type="DataFile">
                 <key>name</key>
-                <filename>D:/source/thegame/static/assets/atlas-maps/player-cat.json</filename>
+                <filename>player-cat.json</filename>
             </struct>
         </map>
         <key>multiPack</key>
@@ -164,7 +164,7 @@
         <key>autoAliasEnabled</key>
         <true/>
         <key>trimSpriteNames</key>
-        <false/>
+        <true/>
         <key>prependSmartFolderName</key>
         <false/>
         <key>cleanTransparentPixels</key>
@@ -172,7 +172,7 @@
         <key>globalSpriteSettings</key>
         <struct type="SpriteSettings">
             <key>scale</key>
-            <double>1</double>
+            <double>0.41667</double>
             <key>scaleMode</key>
             <enum type="ScaleMode">Smooth</enum>
             <key>extrude</key>
@@ -192,7 +192,7 @@
         </struct>
         <key>fileList</key>
         <array>
-            <filename>D:/source/thegame/static/assets/atlas-maps/cat</filename>
+            <filename>cat</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>

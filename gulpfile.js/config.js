@@ -32,9 +32,11 @@ const PHASER_BUILDS = 'node_modules/phaser/build';
 //    change to another build option listed above.
 const PHASER = `${PHASER_BUILDS}/custom/phaser-arcade-physics.js`;
 
-//Phaser Debug Module
-var DEBUG = 'debug/phaser-debug.js';
-var INSPECTOR = 'debug/phaser-inspector.js';
+//Phaser Debug Modules
+var DEBUG = 'plugins/phaser-debug.js';
+var INSPECTOR = 'plugins/phaser-inspector.js';
+
+var TILED = 'plugins/phaser-tiled.js';
 
 // Build output directories.
 exports.dirs = {
@@ -68,7 +70,8 @@ exports.server = {
     routes: {
       '/phaser.js': PHASER,
       '/phaser-debug.js': DEBUG,
-      '/phaser-inspector.js': INSPECTOR
+      '/phaser-inspector.js': INSPECTOR,
+        '/phaser-tiled.js': TILED
     }
   },
   ghostMode: false,
