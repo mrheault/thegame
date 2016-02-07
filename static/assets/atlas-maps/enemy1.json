@@ -1,0 +1,52 @@
+{"frames": [
+
+{
+	"filename": "got_hit/frame",
+	"frame": {"x":1,"y":1,"w":76,"h":70},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":70},
+	"sourceSize": {"w":76,"h":70}
+},
+{
+	"filename": "idle/frame1",
+	"frame": {"x":235,"y":1,"w":78,"h":67},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":78,"h":67},
+	"sourceSize": {"w":78,"h":67}
+},
+{
+	"filename": "idle/frame2",
+	"frame": {"x":315,"y":1,"w":78,"h":66},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":78,"h":66},
+	"sourceSize": {"w":78,"h":67}
+},
+{
+	"filename": "jump/jump_fall",
+	"frame": {"x":157,"y":1,"w":76,"h":69},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":76,"h":69},
+	"sourceSize": {"w":76,"h":70}
+},
+{
+	"filename": "jump/jump_up",
+	"frame": {"x":79,"y":1,"w":76,"h":70},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":70},
+	"sourceSize": {"w":76,"h":70}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "enemy1.png",
+	"format": "RGBA8888",
+	"size": {"w":394,"h":72},
+	"scale": "0.25",
+	"smartupdate": "$TexturePacker:SmartUpdate:92760cad44f80bb66a28fef900a8a056:85ab6e5756f41dc3cf6d5bd8e4f1f7d9:25b65a864ad92a9a51374ffe59991978$"
+}
+}

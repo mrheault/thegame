@@ -6,7 +6,7 @@
         <key>texturePackerVersion</key>
         <string>4.0.2</string>
         <key>fileName</key>
-        <string>D:/source/thegame/static/assets/atlas-maps/player-boy.tps</string>
+        <string>D:/source/thegame/static/assets/atlas-maps/enemy2.tps</string>
         <key>autoSDSettings</key>
         <array>
             <struct type="AutoSDSettings">
@@ -38,7 +38,7 @@
         <key>dataFormat</key>
         <string>phaser-json-array</string>
         <key>textureFileName</key>
-        <filename>player-boy.png</filename>
+        <filename></filename>
         <key>flipPVR</key>
         <false/>
         <key>pvrCompressionQuality</key>
@@ -100,7 +100,7 @@
             <int>-1</int>
         </QSize>
         <key>reduceBorderArtifacts</key>
-        <true/>
+        <false/>
         <key>algorithmSettings</key>
         <struct type="AlgorithmSettings">
             <key>algorithm</key>
@@ -147,7 +147,7 @@
             <key>data</key>
             <struct type="DataFile">
                 <key>name</key>
-                <filename>player-boy.json</filename>
+                <filename>enemy2.json</filename>
             </struct>
         </map>
         <key>multiPack</key>
@@ -172,7 +172,7 @@
         <key>globalSpriteSettings</key>
         <struct type="SpriteSettings">
             <key>scale</key>
-            <double>0.19</double>
+            <double>0.13</double>
             <key>scaleMode</key>
             <enum type="ScaleMode">Smooth</enum>
             <key>extrude</key>
@@ -192,7 +192,7 @@
         </struct>
         <key>fileList</key>
         <array>
-            <filename>boy</filename>
+            <filename>enemy2</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>

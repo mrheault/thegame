@@ -1,0 +1,260 @@
+{"frames": [
+
+{
+	"filename": "Air Explode/air.explode1",
+	"frame": {"x":503,"y":184,"w":196,"h":186},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":11,"w":196,"h":186},
+	"sourceSize": {"w":232,"h":208}
+},
+{
+	"filename": "Air Explode/air.explode2",
+	"frame": {"x":701,"y":176,"w":228,"h":190},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":9,"w":228,"h":190},
+	"sourceSize": {"w":232,"h":208}
+},
+{
+	"filename": "Air Explode/air.explode3",
+	"frame": {"x":1333,"y":149,"w":188,"h":198},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":22,"y":5,"w":188,"h":198},
+	"sourceSize": {"w":232,"h":208}
+},
+{
+	"filename": "Air Explode/air.explode4",
+	"frame": {"x":1133,"y":149,"w":198,"h":204},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":2,"w":198,"h":204},
+	"sourceSize": {"w":232,"h":208}
+},
+{
+	"filename": "Air Explode/air.explode5",
+	"frame": {"x":931,"y":176,"w":200,"h":186},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":11,"w":200,"h":186},
+	"sourceSize": {"w":232,"h":208}
+},
+{
+	"filename": "Attacks/Big-Blast",
+	"frame": {"x":1725,"y":1,"w":208,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":1,"w":208,"h":164},
+	"sourceSize": {"w":212,"h":166}
+},
+{
+	"filename": "Attacks/Bullet-Shoot",
+	"frame": {"x":961,"y":106,"w":80,"h":48},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":80,"h":48},
+	"sourceSize": {"w":80,"h":50}
+},
+{
+	"filename": "Attacks/Fire-Shoot",
+	"frame": {"x":1705,"y":379,"w":134,"h":75},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":1,"w":134,"h":75},
+	"sourceSize": {"w":138,"h":77}
+},
+{
+	"filename": "Attacks/Got-hit",
+	"frame": {"x":1523,"y":149,"w":111,"h":112},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":111,"h":112},
+	"sourceSize": {"w":111,"h":112}
+},
+{
+	"filename": "Attacks/Ground-Blast",
+	"frame": {"x":1176,"y":355,"w":169,"h":141},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":2,"w":169,"h":141},
+	"sourceSize": {"w":169,"h":143}
+},
+{
+	"filename": "Attacks/Long-Blast",
+	"frame": {"x":1,"y":1,"w":1089,"h":103},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1089,"h":103},
+	"sourceSize": {"w":1089,"h":103}
+},
+{
+	"filename": "Attacks/Moon-Blast",
+	"frame": {"x":1575,"y":309,"w":128,"h":200},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":128,"h":200},
+	"sourceSize": {"w":130,"h":202}
+},
+{
+	"filename": "Attacks/Shoot-blast-A",
+	"frame": {"x":1868,"y":167,"w":54,"h":82},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":2,"w":54,"h":82},
+	"sourceSize": {"w":59,"h":85}
+},
+{
+	"filename": "Attacks/Shoot-blast-B",
+	"frame": {"x":1607,"y":79,"w":46,"h":64},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":11,"w":46,"h":64},
+	"sourceSize": {"w":59,"h":85}
+},
+{
+	"filename": "Ground Explode/ground.explode1",
+	"frame": {"x":943,"y":364,"w":231,"h":144},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":30,"w":231,"h":144},
+	"sourceSize": {"w":259,"h":174}
+},
+{
+	"filename": "Ground Explode/ground.explode2",
+	"frame": {"x":260,"y":184,"w":241,"h":171},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":3,"w":241,"h":171},
+	"sourceSize": {"w":259,"h":174}
+},
+{
+	"filename": "Ground Explode/ground.explode3",
+	"frame": {"x":1,"y":184,"w":257,"h":167},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":7,"w":257,"h":167},
+	"sourceSize": {"w":259,"h":174}
+},
+{
+	"filename": "Ground Explode/ground.explode4",
+	"frame": {"x":1,"y":353,"w":239,"h":157},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":1,"w":239,"h":157},
+	"sourceSize": {"w":259,"h":174}
+},
+{
+	"filename": "Ground Explode/ground.explode5",
+	"frame": {"x":242,"y":357,"w":231,"h":151},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":4,"w":231,"h":151},
+	"sourceSize": {"w":259,"h":174}
+},
+{
+	"filename": "Ultimate Attacks/Meteor/meteor1",
+	"frame": {"x":703,"y":368,"w":238,"h":140},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":0,"w":238,"h":140},
+	"sourceSize": {"w":242,"h":140}
+},
+{
+	"filename": "Ultimate Attacks/Meteor/meteor2",
+	"frame": {"x":1347,"y":349,"w":226,"h":140},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":0,"w":226,"h":140},
+	"sourceSize": {"w":242,"h":140}
+},
+{
+	"filename": "Ultimate Attacks/Meteor/meteor3",
+	"frame": {"x":1636,"y":167,"w":230,"h":140},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":0,"w":230,"h":140},
+	"sourceSize": {"w":242,"h":140}
+},
+{
+	"filename": "Ultimate Attacks/Meteor/meteor4",
+	"frame": {"x":475,"y":372,"w":226,"h":139},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":1,"w":226,"h":139},
+	"sourceSize": {"w":242,"h":140}
+},
+{
+	"filename": "Ultimate Attacks/Missile A/missileA1",
+	"frame": {"x":676,"y":106,"w":283,"h":68},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":283,"h":68},
+	"sourceSize": {"w":283,"h":68}
+},
+{
+	"filename": "Ultimate Attacks/Missile A/missileA2",
+	"frame": {"x":1705,"y":309,"w":233,"h":68},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":50,"y":0,"w":233,"h":68},
+	"sourceSize": {"w":283,"h":68}
+},
+{
+	"filename": "Ultimate Attacks/Missile A/missileA3",
+	"frame": {"x":1092,"y":79,"w":259,"h":68},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":24,"y":0,"w":259,"h":68},
+	"sourceSize": {"w":283,"h":68}
+},
+{
+	"filename": "Ultimate Attacks/Missile A/missileA4",
+	"frame": {"x":1353,"y":79,"w":252,"h":68},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":0,"w":252,"h":68},
+	"sourceSize": {"w":283,"h":68}
+},
+{
+	"filename": "Ultimate Attacks/Missile B/missileB1",
+	"frame": {"x":1,"y":106,"w":353,"h":76},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":0,"w":353,"h":76},
+	"sourceSize": {"w":355,"h":76}
+},
+{
+	"filename": "Ultimate Attacks/Missile B/missileB2",
+	"frame": {"x":1422,"y":1,"w":301,"h":76},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":54,"y":0,"w":301,"h":76},
+	"sourceSize": {"w":355,"h":76}
+},
+{
+	"filename": "Ultimate Attacks/Missile B/missileB3",
+	"frame": {"x":1092,"y":1,"w":328,"h":76},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":0,"w":328,"h":76},
+	"sourceSize": {"w":355,"h":76}
+},
+{
+	"filename": "Ultimate Attacks/Missile B/missileB4",
+	"frame": {"x":356,"y":106,"w":318,"h":76},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":37,"y":0,"w":318,"h":76},
+	"sourceSize": {"w":355,"h":76}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "blast.png",
+	"format": "RGBA8888",
+	"size": {"w":1939,"h":512},
+	"scale": "0.15",
+	"smartupdate": "$TexturePacker:SmartUpdate:882c3b4949553a347e902a3c4350e1f0:4519adf61aae92f5431758c9d340740b:687ba87182e5efd9318b9195cd325b2b$"
+}
+}

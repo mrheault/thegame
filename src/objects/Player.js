@@ -1,15 +1,50 @@
 class Player extends Phaser.Sprite {
-  constructor(game) {
-    super(game, 10, game.world.height - 14, 'player');
+  constructor(game, x, y, asset, health) {
+    super(game, x, y, asset);
     this.game = game;
     this.game.physics.arcade.enable(this);
     this.body.bounce.y = 0;
     this.body.gravity.y = 300;
     this.body.collideWorldBounds = true;
     this.anchor.setTo(.5, 1);
-    //this.health = health;
+    this.health = health;
     //this.maxHealth = health;
 
+    this.setupAnimations();
+
+    this.game.cursors = game.input.keyboard.addKeys({
+      'up': Phaser.KeyCode.W,
+      'down': Phaser.KeyCode.S,
+      'left': Phaser.KeyCode.A,
+      'right': Phaser.KeyCode.D,
+      'attackV': Phaser.KeyCode.F,
+      'attackH': Phaser.KeyCode.E
+    });
+    this.game.add.existing(this);
+  }
+
+  update() {
+    this.body.velocity.x = 0;
+    this.animationKeyBinds();
+
+    //this.game.debug.spriteBounds(this.player);
+    //this.game.debug.bodyInfo(this, 32, 32);
+  }
+
+  jump() {
+    //  Allow the player to jump if they are touching the ground.
+    if (this.game.cursors.up.isDown && this.body.touching.down) {
+      this.body.velocity.y = -350;
+    }
+    if (this.deltaY < 0) {
+      this.animations.play('jump');
+    }
+    else if (this.deltaY > 0) {
+      this.animations.play('jumpFall');
+    }
+  }
+
+  setupAnimations() {
     //Animations
     //idle
     this.animations.add('idle', Phaser.Animation.generateFrameNames('Player/Idle/idle', 1, 12), 10, true);
@@ -28,38 +63,6 @@ class Player extends Phaser.Sprite {
 
     //Attack.Horizontal
     this.animations.add('attackH', Phaser.Animation.generateFrameNames('Player/attack.horizontal/attack.horizontal', 1, 4), 10, true);
-
-    //game.debug.spriteInfo(this, 32, 32);
-    this.game.cursors = game.input.keyboard.addKeys({
-      'up': Phaser.KeyCode.W,
-      'down': Phaser.KeyCode.S,
-      'left': Phaser.KeyCode.A,
-      'right': Phaser.KeyCode.D,
-      'attackV': Phaser.KeyCode.F,
-      'attackH': Phaser.KeyCode.E
-    });
-    this.game.add.existing(this);
-  }
-
-  update() {
-    this.body.velocity.x = 0;
-    this.animationKeyBinds();
-
-    //this.game.debug.spriteBounds(this.player);
-    this.game.debug.bodyInfo(this, 32, 32);
-  }
-
-  jump() {
-    //  Allow the player to jump if they are touching the ground.
-    if (this.game.cursors.up.isDown && this.body.touching.down) {
-      this.body.velocity.y = -350;
-    }
-    if (this.deltaY < 0) {
-      this.animations.play('jump');
-    }
-    else if (this.deltaY > 0) {
-      this.animations.play('jumpFall');
-    }
   }
 
   animationKeyBinds() {

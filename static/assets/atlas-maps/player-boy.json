@@ -1,256 +1,8 @@
 {"frames": [
 
 {
-	"filename": "Blast and Explode/Air Explode/air.explode1",
-	"frame": {"x":1799,"y":1,"w":248,"h":235},
-	"rotated": false,
-	"trimmed": true,
-	"spriteSourceSize": {"x":23,"y":14,"w":248,"h":235},
-	"sourceSize": {"w":294,"h":263}
-},
-{
-	"filename": "Blast and Explode/Air Explode/air.explode2",
-	"frame": {"x":1,"y":444,"w":290,"h":239},
-	"rotated": false,
-	"trimmed": true,
-	"spriteSourceSize": {"x":2,"y":12,"w":290,"h":239},
-	"sourceSize": {"w":294,"h":263}
-},
-{
-	"filename": "Blast and Explode/Air Explode/air.explode3",
-	"frame": {"x":253,"y":685,"w":236,"h":249},
-	"rotated": false,
-	"trimmed": true,
-	"spriteSourceSize": {"x":29,"y":7,"w":236,"h":249},
-	"sourceSize": {"w":294,"h":263}
-},
-{
-	"filename": "Blast and Explode/Air Explode/air.explode4",
-	"frame": {"x":1,"y":685,"w":250,"h":259},
-	"rotated": false,
-	"trimmed": true,
-	"spriteSourceSize": {"x":22,"y":2,"w":250,"h":259},
-	"sourceSize": {"w":294,"h":263}
-},
-{
-	"filename": "Blast and Explode/Air Explode/air.explode5",
-	"frame": {"x":293,"y":450,"w":252,"h":233},
-	"rotated": false,
-	"trimmed": true,
-	"spriteSourceSize": {"x":21,"y":15,"w":252,"h":233},
-	"sourceSize": {"w":294,"h":263}
-},
-{
-	"filename": "Blast and Explode/Attacks/Big-Blast",
-	"frame": {"x":709,"y":432,"w":264,"h":207},
-	"rotated": false,
-	"trimmed": true,
-	"spriteSourceSize": {"x":3,"y":2,"w":264,"h":207},
-	"sourceSize": {"w":269,"h":211}
-},
-{
-	"filename": "Blast and Explode/Attacks/Bullet-Shoot",
-	"frame": {"x":809,"y":1050,"w":101,"h":60},
-	"rotated": false,
-	"trimmed": true,
-	"spriteSourceSize": {"x":0,"y":2,"w":101,"h":60},
-	"sourceSize": {"w":101,"h":64}
-},
-{
-	"filename": "Blast and Explode/Attacks/Fire-Shoot",
-	"frame": {"x":801,"y":955,"w":169,"h":93},
-	"rotated": false,
-	"trimmed": true,
-	"spriteSourceSize": {"x":3,"y":2,"w":169,"h":93},
-	"sourceSize": {"w":175,"h":97}
-},
-{
-	"filename": "Blast and Explode/Attacks/Got-hit",
-	"frame": {"x":1238,"y":133,"w":141,"h":141},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":141,"h":141},
-	"sourceSize": {"w":141,"h":141}
-},
-{
-	"filename": "Blast and Explode/Attacks/Ground-Blast",
-	"frame": {"x":491,"y":703,"w":214,"h":180},
-	"rotated": false,
-	"trimmed": true,
-	"spriteSourceSize": {"x":0,"y":2,"w":214,"h":180},
-	"sourceSize": {"w":214,"h":182}
-},
-{
-	"filename": "Blast and Explode/Attacks/Long-Blast",
-	"frame": {"x":1,"y":1,"w":1378,"h":130},
-	"rotated": false,
-	"trimmed": true,
-	"spriteSourceSize": {"x":1,"y":0,"w":1378,"h":130},
-	"sourceSize": {"w":1379,"h":130}
-},
-{
-	"filename": "Blast and Explode/Attacks/Moon-Blast",
-	"frame": {"x":547,"y":450,"w":160,"h":251},
-	"rotated": false,
-	"trimmed": true,
-	"spriteSourceSize": {"x":2,"y":2,"w":160,"h":251},
-	"sourceSize": {"w":164,"h":255}
-},
-{
-	"filename": "Blast and Explode/Attacks/Shoot-blast-A",
-	"frame": {"x":1866,"y":539,"w":68,"h":102},
-	"rotated": false,
-	"trimmed": true,
-	"spriteSourceSize": {"x":2,"y":3,"w":68,"h":102},
-	"sourceSize": {"w":75,"h":107}
-},
-{
-	"filename": "Blast and Explode/Attacks/Shoot-blast-B",
-	"frame": {"x":912,"y":1050,"w":58,"h":80},
-	"rotated": false,
-	"trimmed": true,
-	"spriteSourceSize": {"x":7,"y":14,"w":58,"h":80},
-	"sourceSize": {"w":75,"h":107}
-},
-{
-	"filename": "Blast and Explode/Ground Explode/ground.explode1",
-	"frame": {"x":1,"y":946,"w":292,"h":182},
-	"rotated": false,
-	"trimmed": true,
-	"spriteSourceSize": {"x":18,"y":39,"w":292,"h":182},
-	"sourceSize": {"w":328,"h":221}
-},
-{
-	"filename": "Blast and Explode/Ground Explode/ground.explode2",
-	"frame": {"x":329,"y":231,"w":304,"h":217},
-	"rotated": false,
-	"trimmed": true,
-	"spriteSourceSize": {"x":12,"y":4,"w":304,"h":217},
-	"sourceSize": {"w":328,"h":221}
-},
-{
-	"filename": "Blast and Explode/Ground Explode/ground.explode3",
-	"frame": {"x":1,"y":231,"w":326,"h":211},
-	"rotated": false,
-	"trimmed": true,
-	"spriteSourceSize": {"x":1,"y":10,"w":326,"h":211},
-	"sourceSize": {"w":328,"h":221}
-},
-{
-	"filename": "Blast and Explode/Ground Explode/ground.explode4",
-	"frame": {"x":635,"y":231,"w":300,"h":199},
-	"rotated": false,
-	"trimmed": true,
-	"spriteSourceSize": {"x":14,"y":1,"w":300,"h":199},
-	"sourceSize": {"w":328,"h":221}
-},
-{
-	"filename": "Blast and Explode/Ground Explode/ground.explode5",
-	"frame": {"x":937,"y":231,"w":290,"h":190},
-	"rotated": false,
-	"trimmed": true,
-	"spriteSourceSize": {"x":19,"y":6,"w":290,"h":190},
-	"sourceSize": {"w":328,"h":221}
-},
-{
-	"filename": "Blast and Explode/Ultimate Attacks/Meteor/meteor1",
-	"frame": {"x":499,"y":885,"w":300,"h":175},
-	"rotated": false,
-	"trimmed": true,
-	"spriteSourceSize": {"x":4,"y":1,"w":300,"h":175},
-	"sourceSize": {"w":306,"h":177}
-},
-{
-	"filename": "Blast and Explode/Ultimate Attacks/Meteor/meteor2",
-	"frame": {"x":709,"y":641,"w":285,"h":175},
-	"rotated": false,
-	"trimmed": true,
-	"spriteSourceSize": {"x":19,"y":1,"w":285,"h":175},
-	"sourceSize": {"w":306,"h":177}
-},
-{
-	"filename": "Blast and Explode/Ultimate Attacks/Meteor/meteor3",
-	"frame": {"x":996,"y":601,"w":290,"h":175},
-	"rotated": false,
-	"trimmed": true,
-	"spriteSourceSize": {"x":14,"y":1,"w":290,"h":175},
-	"sourceSize": {"w":306,"h":177}
-},
-{
-	"filename": "Blast and Explode/Ultimate Attacks/Meteor/meteor4",
-	"frame": {"x":975,"y":423,"w":285,"h":176},
-	"rotated": false,
-	"trimmed": true,
-	"spriteSourceSize": {"x":19,"y":1,"w":285,"h":176},
-	"sourceSize": {"w":306,"h":177}
-},
-{
-	"filename": "Blast and Explode/Ultimate Attacks/Missile A/missileA1",
-	"frame": {"x":1381,"y":99,"w":358,"h":86},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":358,"h":86},
-	"sourceSize": {"w":358,"h":86}
-},
-{
-	"filename": "Blast and Explode/Ultimate Attacks/Missile A/missileA2",
-	"frame": {"x":996,"y":778,"w":294,"h":86},
-	"rotated": false,
-	"trimmed": true,
-	"spriteSourceSize": {"x":64,"y":0,"w":294,"h":86},
-	"sourceSize": {"w":358,"h":86}
-},
-{
-	"filename": "Blast and Explode/Ultimate Attacks/Missile A/missileA3",
-	"frame": {"x":1381,"y":187,"w":327,"h":86},
-	"rotated": false,
-	"trimmed": true,
-	"spriteSourceSize": {"x":31,"y":0,"w":327,"h":86},
-	"sourceSize": {"w":358,"h":86}
-},
-{
-	"filename": "Blast and Explode/Ultimate Attacks/Missile A/missileA4",
-	"frame": {"x":1381,"y":275,"w":318,"h":86},
-	"rotated": false,
-	"trimmed": true,
-	"spriteSourceSize": {"x":40,"y":0,"w":318,"h":86},
-	"sourceSize": {"w":358,"h":86}
-},
-{
-	"filename": "Blast and Explode/Ultimate Attacks/Missile B/missileB1",
-	"frame": {"x":1,"y":133,"w":447,"h":96},
-	"rotated": false,
-	"trimmed": true,
-	"spriteSourceSize": {"x":3,"y":0,"w":447,"h":96},
-	"sourceSize": {"w":450,"h":96}
-},
-{
-	"filename": "Blast and Explode/Ultimate Attacks/Missile B/missileB2",
-	"frame": {"x":855,"y":133,"w":381,"h":96},
-	"rotated": false,
-	"trimmed": true,
-	"spriteSourceSize": {"x":69,"y":0,"w":381,"h":96},
-	"sourceSize": {"w":450,"h":96}
-},
-{
-	"filename": "Blast and Explode/Ultimate Attacks/Missile B/missileB3",
-	"frame": {"x":1381,"y":1,"w":416,"h":96},
-	"rotated": false,
-	"trimmed": true,
-	"spriteSourceSize": {"x":34,"y":0,"w":416,"h":96},
-	"sourceSize": {"w":450,"h":96}
-},
-{
-	"filename": "Blast and Explode/Ultimate Attacks/Missile B/missileB4",
-	"frame": {"x":450,"y":133,"w":403,"h":96},
-	"rotated": false,
-	"trimmed": true,
-	"spriteSourceSize": {"x":47,"y":0,"w":403,"h":96},
-	"sourceSize": {"w":450,"h":96}
-},
-{
 	"filename": "Player/Idle/idle1",
-	"frame": {"x":1681,"y":810,"w":64,"h":153},
+	"frame": {"x":406,"y":1,"w":64,"h":153},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":3,"y":0,"w":64,"h":153},
@@ -258,7 +10,7 @@
 },
 {
 	"filename": "Player/Idle/idle10",
-	"frame": {"x":1754,"y":965,"w":67,"h":152},
+	"frame": {"x":502,"y":310,"w":67,"h":152},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":1,"w":67,"h":152},
@@ -266,7 +18,7 @@
 },
 {
 	"filename": "Player/Idle/idle11",
-	"frame": {"x":1747,"y":810,"w":66,"h":153},
+	"frame": {"x":271,"y":1,"w":66,"h":153},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":1,"y":0,"w":66,"h":153},
@@ -274,7 +26,7 @@
 },
 {
 	"filename": "Player/Idle/idle12",
-	"frame": {"x":1225,"y":866,"w":65,"h":153},
+	"frame": {"x":312,"y":156,"w":65,"h":153},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":0,"w":65,"h":153},
@@ -282,7 +34,7 @@
 },
 {
 	"filename": "Player/Idle/idle2",
-	"frame": {"x":1803,"y":655,"w":65,"h":153},
+	"frame": {"x":339,"y":1,"w":65,"h":153},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":0,"w":65,"h":153},
@@ -290,7 +42,7 @@
 },
 {
 	"filename": "Player/Idle/idle3",
-	"frame": {"x":1815,"y":810,"w":66,"h":153},
+	"frame": {"x":233,"y":330,"w":66,"h":153},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":1,"y":0,"w":66,"h":153},
@@ -298,7 +50,7 @@
 },
 {
 	"filename": "Player/Idle/idle4",
-	"frame": {"x":1975,"y":238,"w":67,"h":152},
+	"frame": {"x":530,"y":155,"w":67,"h":152},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":1,"w":67,"h":152},
@@ -306,7 +58,7 @@
 },
 {
 	"filename": "Player/Idle/idle5",
-	"frame": {"x":1815,"y":810,"w":66,"h":153},
+	"frame": {"x":233,"y":330,"w":66,"h":153},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":1,"y":0,"w":66,"h":153},
@@ -314,7 +66,7 @@
 },
 {
 	"filename": "Player/Idle/idle6",
-	"frame": {"x":1823,"y":965,"w":65,"h":153},
+	"frame": {"x":369,"y":311,"w":65,"h":153},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":0,"w":65,"h":153},
@@ -322,7 +74,7 @@
 },
 {
 	"filename": "Player/Idle/idle7",
-	"frame": {"x":1983,"y":696,"w":64,"h":153},
+	"frame": {"x":436,"y":311,"w":64,"h":153},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":3,"y":0,"w":64,"h":153},
@@ -330,7 +82,7 @@
 },
 {
 	"filename": "Player/Idle/idle8",
-	"frame": {"x":1108,"y":943,"w":65,"h":153},
+	"frame": {"x":379,"y":156,"w":65,"h":153},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":0,"w":65,"h":153},
@@ -338,7 +90,7 @@
 },
 {
 	"filename": "Player/Idle/idle9",
-	"frame": {"x":1040,"y":938,"w":66,"h":153},
+	"frame": {"x":301,"y":330,"w":66,"h":153},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":1,"y":0,"w":66,"h":153},
@@ -346,7 +98,7 @@
 },
 {
 	"filename": "Player/Sliding/sliding",
-	"frame": {"x":975,"y":866,"w":139,"h":70},
+	"frame": {"x":1216,"y":430,"w":139,"h":70},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":1,"y":0,"w":139,"h":70},
@@ -354,7 +106,7 @@
 },
 {
 	"filename": "Player/attack.claws/claws1",
-	"frame": {"x":1292,"y":738,"w":76,"h":152},
+	"frame": {"x":472,"y":1,"w":76,"h":152},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":1,"w":76,"h":152},
@@ -362,7 +114,7 @@
 },
 {
 	"filename": "Player/attack.claws/claws2",
-	"frame": {"x":1620,"y":363,"w":82,"h":149},
+	"frame": {"x":805,"y":153,"w":82,"h":149},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":4,"y":4,"w":82,"h":149},
@@ -370,7 +122,7 @@
 },
 {
 	"filename": "Player/attack.claws/claws3",
-	"frame": {"x":1229,"y":276,"w":146,"h":142},
+	"frame": {"x":1106,"y":1,"w":146,"h":142},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":4,"y":11,"w":146,"h":142},
@@ -378,7 +130,7 @@
 },
 {
 	"filename": "Player/attack.claws/claws4",
-	"frame": {"x":1370,"y":637,"w":124,"h":135},
+	"frame": {"x":1350,"y":282,"w":124,"h":135},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":4,"y":18,"w":124,"h":135},
@@ -386,7 +138,7 @@
 },
 {
 	"filename": "Player/attack.horizontal/attack.horizontal1",
-	"frame": {"x":1617,"y":514,"w":94,"h":147},
+	"frame": {"x":833,"y":1,"w":94,"h":147},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":50,"y":1,"w":94,"h":147},
@@ -394,7 +146,7 @@
 },
 {
 	"filename": "Player/attack.horizontal/attack.horizontal2",
-	"frame": {"x":1580,"y":810,"w":99,"h":143},
+	"frame": {"x":1086,"y":148,"w":99,"h":143},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":50,"y":5,"w":99,"h":143},
@@ -402,7 +154,7 @@
 },
 {
 	"filename": "Player/attack.horizontal/attack.horizontal3",
-	"frame": {"x":1377,"y":363,"w":241,"h":135},
+	"frame": {"x":1107,"y":293,"w":241,"h":135},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":1,"y":13,"w":241,"h":135},
@@ -410,7 +162,7 @@
 },
 {
 	"filename": "Player/attack.horizontal/attack.horizontal4",
-	"frame": {"x":801,"y":818,"w":172,"h":135},
+	"frame": {"x":1187,"y":145,"w":172,"h":135},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":1,"y":13,"w":172,"h":135},
@@ -418,7 +170,7 @@
 },
 {
 	"filename": "Player/attack.shoot/attack.shoot1",
-	"frame": {"x":1712,"y":663,"w":89,"h":145},
+	"frame": {"x":1015,"y":1,"w":89,"h":145},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":1,"w":89,"h":145},
@@ -426,7 +178,7 @@
 },
 {
 	"filename": "Player/attack.shoot/attack.shoot2",
-	"frame": {"x":1799,"y":238,"w":88,"h":146},
+	"frame": {"x":889,"y":150,"w":88,"h":146},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":0,"w":88,"h":146},
@@ -434,7 +186,7 @@
 },
 {
 	"filename": "Player/attack.shoot/attack.shoot3",
-	"frame": {"x":1889,"y":238,"w":84,"h":146},
+	"frame": {"x":929,"y":1,"w":84,"h":146},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":146},
@@ -442,7 +194,7 @@
 },
 {
 	"filename": "Player/attack.vertical/attack.vertical1",
-	"frame": {"x":1520,"y":500,"w":95,"h":147},
+	"frame": {"x":1,"y":358,"w":95,"h":147},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":32,"y":43,"w":95,"h":147},
@@ -450,7 +202,7 @@
 },
 {
 	"filename": "Player/attack.vertical/attack.vertical2",
-	"frame": {"x":1478,"y":801,"w":100,"h":143},
+	"frame": {"x":1005,"y":296,"w":100,"h":143},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":32,"y":47,"w":100,"h":143},
@@ -458,7 +210,7 @@
 },
 {
 	"filename": "Player/attack.vertical/attack.vertical3",
-	"frame": {"x":295,"y":936,"w":202,"h":189},
+	"frame": {"x":1,"y":1,"w":202,"h":189},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":3,"y":1,"w":202,"h":189},
@@ -466,7 +218,7 @@
 },
 {
 	"filename": "Player/attack.vertical/attack.vertical4",
-	"frame": {"x":1375,"y":500,"w":143,"h":135},
+	"frame": {"x":1254,"y":1,"w":143,"h":135},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":32,"y":55,"w":143,"h":135},
@@ -474,7 +226,7 @@
 },
 {
 	"filename": "Player/block/block",
-	"frame": {"x":1969,"y":392,"w":77,"h":146},
+	"frame": {"x":926,"y":298,"w":77,"h":146},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":77,"h":146},
@@ -482,7 +234,7 @@
 },
 {
 	"filename": "Player/defeated.A/defeated.a1",
-	"frame": {"x":1564,"y":955,"w":93,"h":146},
+	"frame": {"x":831,"y":304,"w":93,"h":146},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":7,"y":13,"w":93,"h":146},
@@ -490,7 +242,7 @@
 },
 {
 	"filename": "Player/defeated.A/defeated.a2",
-	"frame": {"x":1605,"y":663,"w":105,"h":145},
+	"frame": {"x":979,"y":149,"w":105,"h":145},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":1,"y":16,"w":105,"h":145},
@@ -498,7 +250,7 @@
 },
 {
 	"filename": "Player/defeated.A/defeated.a3",
-	"frame": {"x":1370,"y":774,"w":106,"h":123},
+	"frame": {"x":1476,"y":1,"w":106,"h":123},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":1,"y":19,"w":106,"h":123},
@@ -506,7 +258,7 @@
 },
 {
 	"filename": "Player/defeated.A/defeated.a4",
-	"frame": {"x":1467,"y":946,"w":95,"h":131},
+	"frame": {"x":1361,"y":138,"w":95,"h":131},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":6,"y":0,"w":95,"h":131},
@@ -514,7 +266,7 @@
 },
 {
 	"filename": "Player/defeated.A/defeated.a5",
-	"frame": {"x":1797,"y":538,"w":67,"h":115},
+	"frame": {"x":1399,"y":1,"w":67,"h":115},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":20,"y":9,"w":67,"h":115},
@@ -522,7 +274,7 @@
 },
 {
 	"filename": "Player/defeated.A/defeated.a6",
-	"frame": {"x":975,"y":601,"w":15,"h":35},
+	"frame": {"x":369,"y":466,"w":15,"h":35},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":46,"y":60,"w":15,"h":35},
@@ -530,7 +282,7 @@
 },
 {
 	"filename": "Player/defeated.A/defeated.a7",
-	"frame": {"x":1229,"y":231,"w":7,"h":16},
+	"frame": {"x":211,"y":157,"w":7,"h":16},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":50,"y":67,"w":7,"h":16},
@@ -538,7 +290,7 @@
 },
 {
 	"filename": "Player/defeated.B/defeated.b1",
-	"frame": {"x":1883,"y":799,"w":62,"h":155},
+	"frame": {"x":83,"y":192,"w":62,"h":155},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":23,"y":3,"w":62,"h":155},
@@ -546,7 +298,7 @@
 },
 {
 	"filename": "Player/defeated.B/defeated.b2",
-	"frame": {"x":1957,"y":851,"w":57,"h":128},
+	"frame": {"x":1476,"y":205,"w":57,"h":128},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":25,"y":3,"w":57,"h":128},
@@ -554,7 +306,7 @@
 },
 {
 	"filename": "Player/defeated.B/defeated.b3",
-	"frame": {"x":1936,"y":696,"w":45,"h":98},
+	"frame": {"x":1535,"y":230,"w":45,"h":98},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":31,"y":12,"w":45,"h":98},
@@ -562,7 +314,7 @@
 },
 {
 	"filename": "Player/defeated.B/defeated.b4",
-	"frame": {"x":1741,"y":99,"w":18,"h":56},
+	"frame": {"x":926,"y":446,"w":18,"h":56},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":45,"y":44,"w":18,"h":56},
@@ -570,7 +322,7 @@
 },
 {
 	"filename": "Player/defeated.B/defeated.b5",
-	"frame": {"x":1175,"y":943,"w":14,"h":88},
+	"frame": {"x":1458,"y":118,"w":14,"h":88},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":47,"y":28,"w":14,"h":88},
@@ -578,7 +330,7 @@
 },
 {
 	"filename": "Player/defeated.B/defeated.b6",
-	"frame": {"x":2004,"y":540,"w":7,"h":102},
+	"frame": {"x":1579,"y":126,"w":7,"h":102},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":50,"y":21,"w":7,"h":102},
@@ -586,7 +338,7 @@
 },
 {
 	"filename": "Player/defeated.B/defeated.b7",
-	"frame": {"x":2013,"y":540,"w":4,"h":63},
+	"frame": {"x":1005,"y":441,"w":4,"h":63},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":52,"y":41,"w":4,"h":63},
@@ -594,7 +346,7 @@
 },
 {
 	"filename": "Player/defeated.B/defeated.b8",
-	"frame": {"x":491,"y":885,"w":4,"h":17},
+	"frame": {"x":205,"y":157,"w":4,"h":17},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":52,"y":64,"w":4,"h":17},
@@ -602,7 +354,7 @@
 },
 {
 	"filename": "Player/got hit/got.hit",
-	"frame": {"x":1292,"y":892,"w":76,"h":151},
+	"frame": {"x":571,"y":309,"w":76,"h":151},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":0,"w":76,"h":151},
@@ -610,7 +362,7 @@
 },
 {
 	"filename": "Player/happy/happy1",
-	"frame": {"x":1870,"y":643,"w":64,"h":154},
+	"frame": {"x":205,"y":1,"w":64,"h":154},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":11,"y":0,"w":64,"h":154},
@@ -618,7 +370,7 @@
 },
 {
 	"filename": "Player/happy/happy2",
-	"frame": {"x":1890,"y":956,"w":65,"h":154},
+	"frame": {"x":166,"y":348,"w":65,"h":154},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":10,"y":0,"w":65,"h":154},
@@ -626,7 +378,7 @@
 },
 {
 	"filename": "Player/happy/happy3",
-	"frame": {"x":1936,"y":540,"w":66,"h":154},
+	"frame": {"x":98,"y":349,"w":66,"h":154},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":9,"y":0,"w":66,"h":154},
@@ -634,7 +386,7 @@
 },
 {
 	"filename": "Player/happy/happy4",
-	"frame": {"x":972,"y":955,"w":66,"h":154},
+	"frame": {"x":147,"y":192,"w":66,"h":154},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":9,"y":0,"w":66,"h":154},
@@ -642,7 +394,7 @@
 },
 {
 	"filename": "Player/happy/happy5",
-	"frame": {"x":1713,"y":491,"w":82,"h":152},
+	"frame": {"x":446,"y":156,"w":82,"h":152},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":1,"y":2,"w":82,"h":152},
@@ -650,7 +402,7 @@
 },
 {
 	"filename": "Player/happy/happy6",
-	"frame": {"x":1884,"y":386,"w":83,"h":151},
+	"frame": {"x":550,"y":1,"w":83,"h":151},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":3,"w":83,"h":151},
@@ -658,7 +410,7 @@
 },
 {
 	"filename": "Player/jump.fall/jump.fall1",
-	"frame": {"x":1370,"y":899,"w":95,"h":153},
+	"frame": {"x":215,"y":175,"w":95,"h":153},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":95,"h":153},
@@ -666,7 +418,7 @@
 },
 {
 	"filename": "Player/jumpUp/jump1",
-	"frame": {"x":1288,"y":572,"w":80,"h":164},
+	"frame": {"x":1,"y":192,"w":80,"h":164},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":80,"h":164},
@@ -674,7 +426,7 @@
 },
 {
 	"filename": "Player/jumpUp/jump2",
-	"frame": {"x":1288,"y":572,"w":80,"h":164},
+	"frame": {"x":1,"y":192,"w":80,"h":164},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":80,"h":164},
@@ -682,7 +434,7 @@
 },
 {
 	"filename": "Player/rolling/rolling1",
-	"frame": {"x":1116,"y":866,"w":107,"h":75},
+	"frame": {"x":1107,"y":430,"w":107,"h":75},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":3,"w":107,"h":75},
@@ -690,7 +442,7 @@
 },
 {
 	"filename": "Player/rolling/rolling2",
-	"frame": {"x":605,"y":1062,"w":99,"h":78},
+	"frame": {"x":1463,"y":419,"w":99,"h":78},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":8,"y":0,"w":99,"h":78},
@@ -698,7 +450,7 @@
 },
 {
 	"filename": "Player/rolling/rolling3",
-	"frame": {"x":706,"y":1062,"w":101,"h":77},
+	"frame": {"x":1476,"y":126,"w":101,"h":77},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":6,"y":1,"w":101,"h":77},
@@ -706,7 +458,7 @@
 },
 {
 	"filename": "Player/rolling/rolling4",
-	"frame": {"x":499,"y":1062,"w":104,"h":78},
+	"frame": {"x":1357,"y":419,"w":104,"h":78},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":3,"y":0,"w":104,"h":78},
@@ -714,7 +466,7 @@
 },
 {
 	"filename": "Player/run/run1",
-	"frame": {"x":1262,"y":420,"w":111,"h":150},
+	"frame": {"x":599,"y":154,"w":111,"h":150},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":111,"h":150},
@@ -722,7 +474,7 @@
 },
 {
 	"filename": "Player/run/run2",
-	"frame": {"x":1704,"y":339,"w":91,"h":150},
+	"frame": {"x":712,"y":153,"w":91,"h":150},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":20,"y":0,"w":91,"h":150},
@@ -730,7 +482,7 @@
 },
 {
 	"filename": "Player/run/run3",
-	"frame": {"x":1710,"y":187,"w":87,"h":150},
+	"frame": {"x":744,"y":1,"w":87,"h":150},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":24,"y":0,"w":87,"h":150},
@@ -738,7 +490,7 @@
 },
 {
 	"filename": "Player/run/run4",
-	"frame": {"x":1496,"y":649,"w":107,"h":150},
+	"frame": {"x":635,"y":1,"w":107,"h":150},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":4,"y":0,"w":107,"h":150},
@@ -746,7 +498,7 @@
 },
 {
 	"filename": "Player/run/run5",
-	"frame": {"x":1659,"y":965,"w":93,"h":150},
+	"frame": {"x":649,"y":306,"w":93,"h":150},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":18,"y":0,"w":93,"h":150},
@@ -754,7 +506,7 @@
 },
 {
 	"filename": "Player/run/run6",
-	"frame": {"x":1797,"y":386,"w":85,"h":150},
+	"frame": {"x":744,"y":305,"w":85,"h":150},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":26,"y":0,"w":85,"h":150},
@@ -765,8 +517,8 @@
 	"version": "1.0",
 	"image": "player-boy.png",
 	"format": "RGBA8888",
-	"size": {"w":2048,"h":1141},
+	"size": {"w":1590,"h":506},
 	"scale": "0.19",
-	"smartupdate": "$TexturePacker:SmartUpdate:05530d5e36273fde79babd8a52e7cd6c:ce122169ca93e017b722f4e64b1795cc:677b03cc30b5bef05ec4d6e8beb60746$"
+	"smartupdate": "$TexturePacker:SmartUpdate:431b1a981d3edb08fd7329c786f1a7cd:ab6cdcd38634b9b5e315be1736f944ed:677b03cc30b5bef05ec4d6e8beb60746$"
 }
 }

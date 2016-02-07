@@ -51,7 +51,7 @@ export default class Boot extends Phaser.State {
   create () {
     //Debugging Modules
     this.add.plugin(Phaser.Plugin.Debug);
-    this.add.plugin(Phaser.Plugin.Inspector);
+    //this.add.plugin(Phaser.Plugin.Inspector);
     // After loading the splash screen assets, move to the next game state.
     this.state.start('Preloader');
   }

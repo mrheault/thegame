@@ -42,6 +42,25 @@ export default {
       textureURL: 'atlas-maps/player-boy.png',
       atlasURL: 'atlas-maps/player-boy.json',
       atlasData: null
+    },
+    {
+      type: 'atlasJSONArray',
+      key: 'enemy1',
+      textureURL: 'atlas-maps/enemy1.png',
+      atlasURL: 'atlas-maps/enemy1.json',
+      atlasData: null
+    },
+    {
+      type: 'atlasJSONArray',
+      key: 'enemy2',
+      textureURL: 'atlas-maps/enemy2.png',
+      atlasURL: 'atlas-maps/enemy2.json',
+      atlasData: null
+    },
+    {
+      type: 'image',
+      key: 'background',
+      url:'background/full-bg.png'
     }
 
     // Example: adding a background music.
