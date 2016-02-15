@@ -3,6 +3,7 @@ Change Log
 
 ##  v0.9.0
 *   Bumped all dependencies to their latest versions.
+*   Updated to ESLint v2.
 
 ##  v0.8.0
 *   Simplified code bundling logic.
