@@ -1,6 +1,12 @@
 Change Log
 ==========
 
+##  v0.9.0
+*   Bumped all dependencies to their latest versions.
+*   Updated to ESLint v2.
+*   Added Babel preset 'stage-2'.
+*   Changed several aspects of the sample game code.
+
 ##  v0.8.0
 *   Simplified code bundling logic.
 *   Split Phaser from distributed game code.
