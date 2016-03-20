@@ -16,6 +16,8 @@ module.exports = function (gulp, $, config) {
   var dirs  = config.dirs;
   var files = config.files;
 
+  var filterHTML = $.filter('**/*.html', {restore: true});
+
   // Wipes `build` and `dist` directories before any task.
   gulp.task('dist:clean', function () {
     return del([ dirs.build, dirs.dist ]);
@@ -45,7 +47,6 @@ module.exports = function (gulp, $, config) {
 
   // Copy all required application assets into the final build directory.
   gulp.task('dist:assets', function () {
-    var filterHTML = $.filter('*.html', { restore: true });
     return gulp.src(files.assets)
       .pipe(filterHTML)
       .pipe($.processhtml())

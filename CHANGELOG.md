@@ -1,6 +1,9 @@
 Change Log
 ==========
 
+##  v0.10.0
+*   Dependencies: Upgraded to `gulp-filter@4.0.0`.
+
 ##  v0.9.1
 *   Added the "states-module" key of the Yeoman configuration file.
 
