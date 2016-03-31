@@ -1,6 +1,9 @@
 Change Log
 ==========
 
+##  v0.9.1
+*   Added the "states-module" key of the Yeoman configuration file.
+
 ##  v0.9.0
 *   Bumped all dependencies to their latest versions.
 *   Updated to ESLint v2.
