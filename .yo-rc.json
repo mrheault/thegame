@@ -4,6 +4,7 @@
       "objects": "src/objects",
       "plugins": "src/plugins",
       "states": "src/states"
-    }
+    },
+    "states-module": "src/states.js"
   }
 }
