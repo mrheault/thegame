@@ -49,9 +49,10 @@ so.)
 [`generator-phaser-plus`][gpp_]
 -------------------------------
 
-Like `phaser-plus-template`? You may also like its companion
-[`generator-phaser-plus`][gpp_], a new [Yeoman][yomn] generator I'm working on.
-Check it out!
+![generator-phaser-plus Screenshot](screenshot.png)
+
+Like `phaser-plus-template`? Looking for a way of bootstrapping your game
+projects instantly? Look no further and try [`generator-phaser-plus`][gpp_].
 
 
 License
@@ -68,7 +69,6 @@ This project draws upon earlier efforts of these two brilliant developers:
 <!-- Links -->
 
 [phsr]: http://phaser.io/
-[yomn]: http://yeoman.io/
 [eslt]: http://eslint.org/
 [gulp]: http://gulpjs.com/
 [babl]: https://babeljs.io/
