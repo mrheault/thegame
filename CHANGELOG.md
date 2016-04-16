@@ -4,6 +4,7 @@ Change Log
 ##  v0.10.0
 *   Dependencies: Upgraded to `gulp-filter@4.0.0`.
 *   Minor updates to the sample game.
+*   Minor changes to the tasks code.
 
 ##  v0.9.1
 *   Added the "states-module" key of the Yeoman configuration file.
