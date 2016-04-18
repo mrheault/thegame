@@ -1,6 +1,9 @@
 Change Log
 ==========
 
+##  v0.10.1
+*   Dependencies: Included `gulp-json-minify@1.0.4`.
+
 ##  v0.10.0
 *   Dependencies: Upgraded to `gulp-filter@4.0.0`.
 *   Minor updates to the sample game.

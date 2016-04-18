@@ -15,6 +15,7 @@ module.exports = function (gulp, $, config) {
   var files = config.files;
 
   var filterHTML = $.filter('**/*.html', {restore: true});
+  var filterJSON = $.filter('**/*.json', {restore: true});
 
   // Wipes `build` and `dist` directories before any task.
   gulp.task('dist:clean', function () {
@@ -49,6 +50,9 @@ module.exports = function (gulp, $, config) {
       .pipe(filterHTML)
       .pipe($.processhtml())
       .pipe(filterHTML.restore)
+      .pipe(filterJSON)
+      .pipe($.jsonMinify())
+      .pipe(filterJSON.restore)
       .pipe(gulp.dest(dirs.dist));
   });
 
