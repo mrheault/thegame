@@ -45,7 +45,7 @@
  */
 
 export default {
-  //  -- Splash screen assets, displayed during the 'Preload' state.
+  // -- Splash screen assets, displayed during the 'Preload' state.
   boot: [{
     key: 'splash-screen',
     type: 'image'
@@ -54,7 +54,7 @@ export default {
     type: 'image'
   }],
 
-  //  -- General assets, used throughout the game.
+  // -- General assets, used throughout the game.
   game: [{
     key: 'phaser',
     type: 'image'
