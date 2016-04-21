@@ -32,6 +32,11 @@
     "vinyl-source-stream": "^1.1.0",
     "watchify": "^3.7.0"
   },
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },
   "scripts": {
     "dist": "gulp dist",
     "clean": "gulp dist:clean",

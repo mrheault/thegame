@@ -42,8 +42,7 @@ exports.files = {
 exports.bundle = {
   debug: true,
   standalone: 'app',
-  entries: [SRC + '/app.js'],
-  transform: ['babelify']
+  entries: [SRC + '/app.js']
 };
 
 // The BrowserSync settings.
