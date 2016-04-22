@@ -40,6 +40,6 @@
   "scripts": {
     "dist": "gulp dist",
     "clean": "gulp dist:clean",
-    "start": "gulp default"
+    "start": "gulp"
   }
 }

@@ -5,12 +5,12 @@
 
 'use strict';
 
-module.exports = function (gulp, $, config) {
-  var del = require('del');
-  var buffer = require('vinyl-buffer');
-  var source = require('vinyl-source-stream');
-  var bundler = require('./helpers/bundler');
+var del = require('del');
+var buffer = require('vinyl-buffer');
+var source = require('vinyl-source-stream');
+var bundler = require('./helpers/bundler');
 
+module.exports = function (gulp, $, config) {
   var dirs = config.dirs;
   var files = config.files;
 
