@@ -1,6 +1,10 @@
 Change Log
 ==========
 
+##  v0.10.2
+*   Move Babelify transform into `package.json`.
+*   Several minor changes in the tasks.
+
 ##  v0.10.1
 *   Dependencies: Included `gulp-json-minify@1.0.4`.
 
