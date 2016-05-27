@@ -1,6 +1,9 @@
 Change Log
 ==========
 
+##  v0.11.0
+*   Upgraded all dependencies to their latest versions.
+
 ##  v0.10.2
 *   Move Babelify transform into `package.json`.
 *   Several minor changes in the tasks.
