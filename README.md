@@ -60,11 +60,6 @@ License
 
 All source code distributed under the terms of the [MIT License](LICENSE).
 
-This project draws upon earlier efforts of these two brilliant developers:
-
-- [slush-phaser-node][sspn], by [Matt Gale (@Eruant)][matt], and
-- [slush-phaser-project][sspp], by [Sean Bohan (@pixelpicosean)][ppsn].
-
 
 <!-- Links -->
 
@@ -74,14 +69,10 @@ This project draws upon earlier efforts of these two brilliant developers:
 [babl]: https://babeljs.io/
 [brsy]: http://browserify.org/
 [edcf]: http://editorconfig.org/
-[matt]: https://github.com/Eruant
 [bsnc]: http://www.browsersync.io/
-[ppsn]: https://github.com/pixelpicosean/
 [feat]: https://babeljs.io/docs/learn-es2015/
-[sspn]: https://github.com/Eruant/slush-phaser-node
 [gpp_]: https://github.com/rblopes/generator-phaser-plus
 [deps]: https://david-dm.org/rblopes/phaser-plus-template
-[bdg1]: https://david-dm.org/rblopes/phaser-plus-template.svg
-[sspp]: https://github.com/pixelpicosean/slush-phaser-project
-[bdg2]: https://david-dm.org/rblopes/phaser-plus-template/dev-status.svg
 [dwld]: https://github.com/rblopes/phaser-plus-template/archive/master.zip
+[bdg1]: https://david-dm.org/rblopes/phaser-plus-template.svg?style=flat-square
+[bdg2]: https://david-dm.org/rblopes/phaser-plus-template/dev-status.svg?style=flat-square

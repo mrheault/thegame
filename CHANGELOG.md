@@ -1,6 +1,11 @@
 Change Log
 ==========
 
+##  v0.11.0
+*   Upgraded all dependencies to their latest versions.
+*   Added `babel-eslint` parser.
+*   Updated tasks.
+
 ##  v0.10.2
 *   Move Babelify transform into `package.json`.
 *   Several minor changes in the tasks.
