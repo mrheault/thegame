@@ -1,6 +1,9 @@
 Change Log
 ==========
 
+##  v0.12.0
+*   Removed Favicons and "Installable Web Application" stuff.
+
 ##  v0.11.0
 *   Upgraded all dependencies to their latest versions.
 *   Added `babel-eslint` parser.
