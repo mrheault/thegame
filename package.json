@@ -1,7 +1,7 @@
 {
   "private": true,
   "dependencies": {
-    "phaser": "^2.4.8"
+    "phaser": "^2.6.0"
   },
   "devDependencies": {
     "babel-eslint": "^6.0.0",

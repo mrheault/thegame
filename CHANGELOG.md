@@ -3,6 +3,7 @@ Change Log
 
 ##  v0.12.0
 *   Removed Favicons and "Installable Web Application" stuff.
+*   Upgraded to Phaser 2.6.0.
 
 ##  v0.11.0
 *   Upgraded all dependencies to their latest versions.
