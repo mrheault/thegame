@@ -5,6 +5,8 @@ Change Log
 *   Removed Favicons and "Installable Web Application" stuff.
 *   Upgraded to Phaser 2.6.0.
 *   Upgraded some dependencies to their latest versions.
+*   The development tasks were updated to use Watchify events, instead of an
+    separate Gulp task, to recompile modified game scripts.
 
 ##  v0.11.0
 *   Upgraded all dependencies to their latest versions.
