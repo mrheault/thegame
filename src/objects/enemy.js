@@ -19,7 +19,7 @@ class Enemy extends Phaser.Sprite {
     this.body.velocity.x = 0;
     this.animations.play('idle');
 
-    this.game.debug.bodyInfo(this, 32, 32);
+    //this.game.debug.bodyInfo(this, 32, 32);
   }
 
   moveEnemy() {

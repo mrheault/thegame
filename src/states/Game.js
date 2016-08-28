@@ -10,7 +10,7 @@ import Enemy from '../objects/Enemy';
 export default class Game extends Phaser.State {
 
   create() {
-    //this.world.setBounds(-130, 0, 1000, 600);
+    this.world.setBounds(0, 0, 1000, 600);
     //this.physics.arcade.setBoundsToWorld();
     //this.camera.setBoundsToWorld();
     //this.camera.y = -this.height/2;
@@ -34,10 +34,11 @@ export default class Game extends Phaser.State {
     this.ledge = this.platforms.create(400, 400, 'ground');
     this.ledge.body.immovable = true;
 
-    this.ledge = this.platforms.create(-150, 250, 'ground');
+    this.ledge = this.platforms.create(-140, 250, 'ground');
     this.ledge.body.immovable = true;
 
     this.player = new Player(this.game, 30, this.world.height - 14, 'player');
+    
     this.enemy = new Enemy(this.game, this.world.randomX, this.world.height - 14, 'enemy1');
     this.enemy2 = new Enemy(this.game, this.world.randomX, this.world.height - 14, 'enemy2');
 

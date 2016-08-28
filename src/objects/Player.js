@@ -28,7 +28,8 @@ class Player extends Phaser.Sprite {
     this.animationKeyBinds();
 
     //this.game.debug.spriteBounds(this.player);
-    //this.game.debug.bodyInfo(this, 32, 32);
+    this.game.debug.bodyInfo(this, 32, 32);
+    
   }
 
   jump() {
@@ -74,7 +75,7 @@ class Player extends Phaser.Sprite {
       this.animations.play('run');
       if (this.game.cursors.up.isDown || this.deltaY !== 0) {
         this.jump();
-
+        
       }
     }
     else if (this.game.cursors.right.isDown) {

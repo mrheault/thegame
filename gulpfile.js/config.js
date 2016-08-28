@@ -71,7 +71,7 @@ exports.server = {
       '/phaser.js': PHASER,
       '/phaser-debug.js': DEBUG,
       '/phaser-inspector.js': INSPECTOR,
-        '/phaser-tiled.js': TILED
+      '/phaser-tiled.js': TILED
     }
   },
   ghostMode: false,
