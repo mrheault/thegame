@@ -1,3 +1,27 @@
+DEPRECATION NOTICE - 2016-11-22
+===============================
+
+Hi there! Thanks for your interest. Unfortunately, I am not updating this
+template anymore. This is not the end, though.
+
+Instead, development has moved to the [`generator-phaser-plus`][gpp_]
+repository. `generator-phaser-plus` is a Yeoman generator for creating projects
+for Web games using the fabulous [Phaser game framework][phsr].
+
+If you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/),
+installing `generator-phaser-plus` is easy.
+
+```
+npm install --global yo                         # To install the Yeoman CLI
+npm install --global generator-phaser-plus      # To install the generator
+yo phaser-plus                                  # Run `generator-phaser-plus`
+```
+
+Find out more about `generator-phaser-plus` at its [project page][gpp_].
+
+-------------------------------------------------------------------------------
+
+
 ![Phaser Plus Template](logo.png)
 =================================
 
@@ -39,7 +63,7 @@ performing the tasks described below.
 npm install   # Installs the required project dependencies.
 npm start     # or `gulp dev`: Launches the game in development mode.
 npm run dist  # or `gulp dist`: Prepares the game for distribution.
-npm run clean # or `gulp dist:clean`: Deletes build files.
+npm run clean # or `gulp clean`: Deletes build files.
 ```
 
 (Optionally, you could install Gulp globally, but you are not required to do

@@ -51,7 +51,7 @@ export default class Boot extends Phaser.State {
   create() {
     // After applying the first adjustments and loading the splash screen
     // assets, move to the next game state.
-    this.state.start('Preload');
+    this.state.start('Preloader');
   }
 
 }
