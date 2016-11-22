@@ -1,10 +1,18 @@
 {
   "generator-phaser-plus": {
-    "dirs": {
-      "objects": "src/objects",
-      "plugins": "src/plugins",
-      "states": "src/states"
+    "meta": {
+      "createdWith": "1.0.0",
+      "creationDate": "2016-11-22T14:40:32.295Z"
     },
-    "states-module": "src/states.js"
+    "baseTemplate": "esnext",
+    "dirs": {
+      "objects": "src/objects/",
+      "plugins": "src/plugins/",
+      "states": "src/states/"
+    },
+    "states": {
+      "moduleName": "src/states.js",
+      "requirePath": "./states/"
+    }
   }
 }

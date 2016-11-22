@@ -2,7 +2,7 @@
  * Logo
  * ====
  *
- * A sample prefab (extended game object class), for displaying the Phaser
+ * A sample prefab (extended game object class), displaying a spinning Phaser
  * logo.
  */
 
