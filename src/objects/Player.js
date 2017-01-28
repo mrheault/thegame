@@ -72,23 +72,23 @@ class Player extends Phaser.Sprite {
       //  Move to the left
       this.body.velocity.x = -150;
       this.scale.x = -1;
-      this.animations.play('run');
-      if (this.game.cursors.up.isDown || this.deltaY !== 0) {
+      if (this.game.cursors.up.isDown || (this.body.velocity.y !== 0) ){
         this.jump();
-        
+      } else {
+        this.animations.play('run');
       }
     }
     else if (this.game.cursors.right.isDown) {
       //  Move to the right
       this.body.velocity.x = 150;
       this.scale.x = 1;
-      this.animations.play('run');
-      if (this.game.cursors.up.isDown || this.deltaY !== 0) {
+      if (this.game.cursors.up.isDown || this.body.velocity.y !== 0) {
         this.jump();
-
+      } else {
+        this.animations.play('run');
       }
     }
-    else if (this.game.cursors.up.isDown || this.deltaY !== 0) {
+    else if (this.game.cursors.up.isDown) {
       this.jump();
     }
     //Attacks
@@ -98,7 +98,7 @@ class Player extends Phaser.Sprite {
     else if (this.game.cursors.attackH.isDown) {
       this.animations.play('attackH');
     }
-    else if (this.deltaY == 0 && this.body.velocity.x == 0 && this.body.velocity.y == 0) {
+    else if (this.deltaY === 0 && this.body.velocity.x === 0 && this.body.velocity.y === 0) {
       //  Stand still
       this.animations.play('idle');
     }
