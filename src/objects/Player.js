@@ -6,10 +6,11 @@ class Player extends Phaser.Sprite {
     this.body.bounce.y = 0;
     this.body.gravity.y = 300;
     this.body.collideWorldBounds = true;
+    //this.body.setSize(this.width/2 , this.height);
     this.anchor.setTo(.5, 1);
+    this.alive = true;
     this.health = health;
     //this.maxHealth = health;
-
     this.setupAnimations();
 
     this.game.cursors = game.input.keyboard.addKeys({
@@ -28,7 +29,7 @@ class Player extends Phaser.Sprite {
     this.animationKeyBinds();
 
     //this.game.debug.spriteBounds(this.player);
-    this.game.debug.bodyInfo(this, 32, 32);
+    //this.game.debug.bodyInfo(this, 32, 32);
     
   }
 
@@ -43,6 +44,7 @@ class Player extends Phaser.Sprite {
     else if (this.deltaY > 0) {
       this.animations.play('jumpFall');
     }
+    
   }
 
   setupAnimations() {
