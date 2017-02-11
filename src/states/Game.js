@@ -27,7 +27,6 @@ export default class Game extends Phaser.State {
 
     //  Scale it to fit the width of the game (the original sprite is 400x32 in size)
     this.ground.scale.setTo(10, 2);
-
     //  This stops it from falling away when you jump on it
     this.ground.body.immovable = true;
 

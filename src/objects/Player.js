@@ -29,13 +29,13 @@ class Player extends Phaser.Sprite {
     this.animationKeyBinds();
 
     //this.game.debug.spriteBounds(this.player);
-    //this.game.debug.bodyInfo(this, 32, 32);
+    this.game.debug.bodyInfo(this, 32, 32);
     
   }
 
   jump() {
     //  Allow the player to jump if they are touching the ground.
-    if (this.game.cursors.up.isDown && this.body.touching.down) {
+    if (this.body.touching.down) {
       this.body.velocity.y = -350;
     }
     if (this.deltaY < 0) {
@@ -74,7 +74,7 @@ class Player extends Phaser.Sprite {
       //  Move to the left
       this.body.velocity.x = -150;
       this.scale.x = -1;
-      if (this.game.cursors.up.isDown || (this.body.velocity.y !== 0) ){
+      if (this.game.cursors.up.isDown || !this.body.touching.down) {
         this.jump();
       } else {
         this.animations.play('run');
@@ -84,13 +84,13 @@ class Player extends Phaser.Sprite {
       //  Move to the right
       this.body.velocity.x = 150;
       this.scale.x = 1;
-      if (this.game.cursors.up.isDown || this.body.velocity.y !== 0) {
+      if (this.game.cursors.up.isDown || !this.body.touching.down) {
         this.jump();
       } else {
         this.animations.play('run');
       }
     }
-    else if (this.game.cursors.up.isDown) {
+    else if (this.game.cursors.up.isDown || !this.body.touching.down) {
       this.jump();
     }
     //Attacks
@@ -100,11 +100,12 @@ class Player extends Phaser.Sprite {
     else if (this.game.cursors.attackH.isDown) {
       this.animations.play('attackH');
     }
-    else if (this.deltaY === 0 && this.body.velocity.x === 0 && this.body.velocity.y === 0) {
+    else  {
       //  Stand still
       this.animations.play('idle');
     }
   }
+  
 }
 
 export default Player;
